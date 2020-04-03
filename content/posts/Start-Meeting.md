@@ -8,10 +8,10 @@ tags:
 
 
 
-![This is a image](../img/Start-Meeting1.png)
-![This is a image](../img/Start-Meeting2.png)
-![This is a image](../img/Start-Meeting3.png)
-![This is a image](../img/Start-Meeting4.png)
-![This is a image](../img/Start-Meeting5.png)
-![This is a image](../img/Start-Meeting6.png)
+![This is a image](../Start-Meeting1.png)
+![This is a image](../Start-Meeting2.png)
+![This is a image](../Start-Meeting3.png)
+![This is a image](../Start-Meeting4.png)
+![This is a image](../Start-Meeting5.png)
+![This is a image](../Start-Meeting6.png)
 
