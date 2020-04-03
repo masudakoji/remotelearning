@@ -1,4 +1,5 @@
 baseURL = "https://masudakoji.github.io/remotelearningprototype/"
+publishDir = "docs"
 languageCode = "ja"
 title = "遠隔授業補助資料"
 theme = "hermit"
