@@ -1,0 +1,59 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on 遠隔授業補助資料</title>
+		<link>https://masudakoji.github.io/remotelearningprototype/posts/</link>
+		<description>Recent content in Posts on 遠隔授業補助資料</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>ja</language>
+		<lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
+		<atom:link href="https://masudakoji.github.io/remotelearningprototype/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>会議を始める</title>
+			<link>https://masudakoji.github.io/remotelearningprototype/posts/start-meeting/</link>
+			<pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearningprototype/posts/start-meeting/</guid>
+			<description></description>
+			<content type="html"><![CDATA[<p><img src="/img/StartMeet1.png" alt="This is a image">
+<img src="/img/StartMeet2.png" alt="This is a image">
+<img src="/img/StartMeet3.png" alt="This is a image">
+<img src="/img/StartMeet4.png" alt="This is a image">
+<img src="/img/StartMeet5.png" alt="This is a image">
+<img src="/img/StartMeet6.png" alt="This is a image"></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Google Hangouts Meetの導入方法</title>
+			<link>https://masudakoji.github.io/remotelearningprototype/posts/introduction-of-google-hangouts-meet/</link>
+			<pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearningprototype/posts/introduction-of-google-hangouts-meet/</guid>
+			<description>Google Hangouts Meetとは Googleが提供するビデオ通話サービスです。学生や教職員のみなさんが持っている神戸高専のGoogleアカウントで利用可能で</description>
+			<content type="html"><![CDATA[<h2 id="google-hangouts-meetとは">Google Hangouts Meetとは</h2>
+<p>Googleが提供するビデオ通話サービスです。学生や教職員のみなさんが持っている神戸高専のGoogleアカウントで利用可能です。個人のGoogleアカウントは使わないようにしましょう。</p>
+<p><a href="https://meet.google.com">https://meet.google.com</a>にアクセスしてください。</p>
+<h2 id="使用環境パソコンから使う">使用環境（パソコンから使う）</h2>
+<p>Google Hangouts Meetを使うには対応しているブラウザを使う必要があります。Internet Explorerでは不具合が出る可能性があります。可能であればChromeブラウザをおすすめします。また、ブラウザは最新のバージョンを使うようにしてください。</p>
+<ul>
+<li>Chrome ブラウザ</li>
+<li>Mozilla Firefox</li>
+<li>Microsoft Edge</li>
+<li>Apple Safari</li>
+</ul>
+<h2 id="使用環境スマホから使う">使用環境（スマホから使う）</h2>
+<p>iOS, Androidともに、アプリをインストールする必要があります。</p>
+<h3 id="android">Android</h3>
+<p>Androidを使っている人は以下のリンクから入手してください。</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.meetings&hl=ja&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" style="display:inline-block;overflow:hidden;background:url(https://play.google.com/intl/us-en/badges/static/images/badges/ja_badge_web_generic.png) no-repeat;width:150px;height:55px;background-size: cover;"></a></p>
+<p>Google Play Storeで「ハングアウト Meet」で検索しても見つかると思います。なお、Androidのバージョンは5.0以上である必要があります。（5.0より新しいバージョンならOKです。2015年ごろ以降に発売された端末だと最初からAndroid 5.0がインストールされていると思います。）</p>
+<h3 id="iosiphone-ipad">iOS(iPhone, iPad)</h3>
+<p>iOSを使っている人は以下のリンクから入手してください。</p>
+<p><a href="https://apps.apple.com/us/app/hangouts-meet-by-google/id1013231476?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2017-02-27&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:45px;"></a></p>
+<p>iOSのApp Storeで「Hangouts Meet by Google」で検索しても見つかると思います。なお、iOSのバージョンは11.0である必要があります。（11.0より新しいバージョンならOKです。iPhone 8より新しい機種であれば最初からiOS11以降がインストールされています。なお、2013年発売のiPhone 5s以降でしたら対応しているiOSにアップデートできます。）</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>
