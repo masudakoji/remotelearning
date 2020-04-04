@@ -1,16 +1,14 @@
 ---
-title: 'Google Hangouts Meetの導入方法'
+title: "Google Hangouts Meetの導入方法"
 date: 2020-04-02
+draft: false
 tags: 
   - student
   - teacher
 ---
 
-
-## Google Hangouts Meetとは
+## [Google Hangouts Meet](https://meet.google.com)とは
 Googleが提供するビデオ通話サービスです。学生や教職員のみなさんが持っている神戸高専のGoogleアカウントで利用可能です。個人のGoogleアカウントは使わないようにしましょう。
-
-[https://meet.google.com](https://meet.google.com)にアクセスしてください。
 
 ## 使用環境（パソコンから使う）
 Google Hangouts Meetを使うには対応しているブラウザを使う必要があります。対応ブラウザは以下の通りです。
@@ -39,6 +37,4 @@ iOSを使っている人は以下のリンクから入手してください。
 <a href="https://apps.apple.com/us/app/hangouts-meet-by-google/id1013231476?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2017-02-27&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:45px;"></a>
 
 iOSのApp Storeで「Hangouts Meet by Google」で検索しても見つかると思います。なお、iOSのバージョンは11.0である必要があります。（11.0より新しいバージョンならOKです。iPhone 8より新しい機種であれば最初からiOS11以降がインストールされています。なお、2013年発売のiPhone 5s以降でしたら対応しているiOSにアップデートできます。）
-
-
 

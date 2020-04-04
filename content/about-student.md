@@ -1,6 +1,7 @@
 ---
 title: "遠隔での受講について"
 date: 2020-04-03
+draft: false
 tags: 
   - student
 ---
