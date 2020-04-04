@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>student on 遠隔授業補助資料</title>
+    <link>https://masudakoji.github.io/remotelearningprototype/tags/student/</link>
+    <description>Recent content in student on 遠隔授業補助資料</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://masudakoji.github.io/remotelearningprototype/tags/student/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>会議を始める</title>
+      <link>https://masudakoji.github.io/remotelearningprototype/posts/start-meeting/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearningprototype/posts/start-meeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>遠隔での受講について</title>
+      <link>https://masudakoji.github.io/remotelearningprototype/about-student/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearningprototype/about-student/</guid>
+      <description>Google Hangouts Meetの導入方法 学生向け記事一覧</description>
+    </item>
+    
+    <item>
+      <title>Google Hangouts Meetの導入方法</title>
+      <link>https://masudakoji.github.io/remotelearningprototype/posts/introduction-of-google-hangouts-meet/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearningprototype/posts/introduction-of-google-hangouts-meet/</guid>
+      <description>Google Hangouts Meetとは Googleが提供するビデオ通話サービスです。学生や教職員のみなさんが持っている神戸高専のGoogleアカウントで利用可能で</description>
+    </item>
+    
+  </channel>
+</rss>
