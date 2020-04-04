@@ -1,6 +1,6 @@
 baseURL = "https://masudakoji.github.io/remotelearningprototype/"
 languageCode = "ja"
-title = "遠隔授業補助資料"
+title = "遠隔授業 補助資料"
 theme = "hermit"
 
 pygmentsCodefences  = true
