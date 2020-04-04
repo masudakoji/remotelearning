@@ -13,12 +13,14 @@ Googleが提供するビデオ通話サービスです。学生や教職員の�
 [https://meet.google.com](https://meet.google.com)にアクセスしてください。
 
 ## 使用環境（パソコンから使う）
-Google Hangouts Meetを使うには対応しているブラウザを使う必要があります。Internet Explorerでは不具合が出る可能性があります。可能であればChromeブラウザをおすすめします。また、ブラウザは最新のバージョンを使うようにしてください。
+Google Hangouts Meetを使うには対応しているブラウザを使う必要があります。対応ブラウザは以下の通りです。
 
 - Chrome ブラウザ
 - Mozilla Firefox
 - Microsoft Edge
 - Apple Safari
+
+Internet Explorerでは不具合が出る可能性があります。可能であればChromeブラウザをおすすめします。また、ブラウザは最新のバージョンを使うようにしてください。
 
 ## 使用環境（スマホから使う）
 iOS, Androidともに、アプリをインストールする必要があります。
