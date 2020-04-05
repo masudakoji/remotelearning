@@ -1,17 +1,46 @@
 ---
-title: '会議を始める'
+title: "ミーティングを始める"
 date: 2020-04-03
+draft: false
 tags: 
   - student
   - teacher
 ---
 
+## 遠隔ミーティング
+Google Hangouts Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などは[Google Hangouts Meetの導入方法]({{< ref "introduction-of-google-hangouts-meet.md" >}})を参考にしてください。
 
 
-![This is a image](1.png)
-![This is a image](2.png)
-![This is a image](3.png)
-![This is a image](4.png)
-![This is a image](5.png)
-![This is a image](6.png)
+## ミーティングを立ち上げる
+自分でミーティングを立ち上げて、他の人を招待する場合について説明します。
+招待されたミーティングに参加する方法は[招待されたミーティングに参加する]({{< ref "join-meeting.md" >}})を参考にしてください。
+
+
+学校から配布されたGoogleアカウントでログインしているか確かめた上で、[Google Hangouts Meet](https://meet.google.com)にアクセスしてください。
+
+{{< figure src="1.png" title="「ミーティングに参加または開始」をクリック" class="center" >}}
+{{< figure src="2.png" title="自分でミーティングコードを設定する場合は入力してください。空白のままでも構いません。" class="center" >}}
+{{< figure src="3.png" title="ミーティングルームが立ち上がりました。まだ、参加はしていません。マイクとカメラが有効になっているか確認してください。「今すぐ参加」を　クリックするとミーティングに参加出来ます。" class="center" >}}
+
+## ミーティングにメンバーを招待する
+立ち上げたミーティングに人を招待する場合、ミーティングのアドレスを伝えて参加してもらうか、一人一人招待を送るかになります。
+
+少人数の場合、一人一人招待しても良いですが、参加者が多い場合にはアドレスを伝える方が良いかと思います。
+
+
+{{< figure src="4.png" title="ミーティングのURLが表示されます。これをメールなどで送ってもメンバーを招待できます。一人づつ招待する場合は「ユーザーを追加」をクリックします。" class="center" >}}
+{{< figure src="5.png" title="招待したい人のメールアドレスを入力します。" class="center" >}}
+
+
+## ミーティング中の操作
+ミーティング中の詳細な操作は[招待されたミーティングに参加する]({{< ref "join-meeting.md" >}})を参考にしてください。
+
+
+
+## 自分のPCの画面を共有
+参加者に自分のPCの画面を共有することができます。デスクトップ全体を共有するか、アプリケーションのウィンドウ単位で共有するか選択できます。ミーティング資料のPDFを表示させたり（Acrobat Readerなど）、講義資料を表示させたり（PowerPointなど）できます。
+
+{{< figure src="6.png" title="「あなたの全画面」か「ウィンドウ」を選択してください" class="center" >}}
+
+
 
