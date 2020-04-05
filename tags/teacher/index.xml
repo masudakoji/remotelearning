@@ -6,27 +6,36 @@
     <description>Recent content in teacher on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2020 01:25:31 +0900</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearningprototype/tags/teacher/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>会議を始める</title>
+      <title>Gmailアプリを設定する</title>
+      <link>https://masudakoji.github.io/remotelearningprototype/posts/setup-gmail/</link>
+      <pubDate>Sun, 05 Apr 2020 01:25:31 +0900</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearningprototype/posts/setup-gmail/</guid>
+      <description>Gmailについて 神戸高専ではGoogle社が提供する様々なサービスが使えるよう契約を結んでいます。担任や教科担当からの案内メールは、Goo</description>
+    </item>
+    
+    <item>
+      <title>ミーティングを始める</title>
       <link>https://masudakoji.github.io/remotelearningprototype/posts/start-meeting/</link>
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://masudakoji.github.io/remotelearningprototype/posts/start-meeting/</guid>
-      <description></description>
+      <description>遠隔ミーティング Google Hangouts Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などはGoogle Hangouts Meetの導入方</description>
     </item>
     
     <item>
-      <title>遠隔での受講について</title>
+      <title>遠隔での授業について（教員向け）</title>
       <link>https://masudakoji.github.io/remotelearningprototype/about-teacher/</link>
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://masudakoji.github.io/remotelearningprototype/about-teacher/</guid>
-      <description>Google Hangouts Meetの導入方法 教員向け記事一覧</description>
+      <description>遠隔授業 Google Hangouts Meetを使って、遠隔での授業やディスカッションができるように検討しています。そのための準備や操作法について説明しています。 Google Hangouts</description>
     </item>
     
     <item>
