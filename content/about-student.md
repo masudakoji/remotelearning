@@ -1,12 +1,30 @@
 ---
-title: "遠隔での受講について"
+title: "遠隔での授業について（学生向け）"
 date: 2020-04-03
 draft: false
 tags: 
   - student
 ---
-[Google Hangouts Meetの導入方法]({{< ref "/posts/Introduction-Of-Google-Hangouts-Meet.md" >}})  
+## 遠隔授業について
+現在の状況をみると、通常通りの授業が再開できるのはまだ先になる可能性があります。そのために、遠隔での講義やディスカッションができるような環境を整える必要があります。
 
-[学生向け記事一覧]({{< ref "tags/student/" >}})  
+そのための準備や方法について説明します。自分に必要な対応をお願いします。
+
+## Googleアカウントの設定
+新入生のみなさんは、Gmail（Googleのメール）の設定が出来ていないと思いますので、アカウントの設定をして、担任の先生からの連絡を受け取れるようにしておいてください。
+
+- [Gmailの設定]({{< ref "posts/setup-gmail.md" >}})
+
+
+## 遠隔授業
+Google Hangouts Meetを使って、遠隔での授業やディスカッションができるように検討しています。そのための準備や操作法について説明しています。
+
+- [Google Hangouts Meetの導入方法]({{< ref "posts/introduction-of-google-hangouts-meet.md" >}})
+- [授業への参加]({{< ref "posts/join-meeting.md" >}})
+
+
+
+## 記事の一覧
+[学生向け記事一覧]({{< ref "tags/student/" >}})
 
 
