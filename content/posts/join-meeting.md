@@ -1,7 +1,11 @@
 ---
 title: "招待されたミーティングに参加する"
-date: 2020-04-05T02:40:17+09:00
+date: 2020-04-05
 draft: false
+tags: 
+  - student
+  - teacher
+  - google hangouts meet
 ---
 
 ## 遠隔ミーティング
