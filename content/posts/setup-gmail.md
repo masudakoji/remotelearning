@@ -1,6 +1,6 @@
 ---
 title: "Gmailアプリを設定する"
-date: 2020-04-05T01:25:31+09:00
+date: 2020-04-05
 draft: false
 tags: 
   - student
