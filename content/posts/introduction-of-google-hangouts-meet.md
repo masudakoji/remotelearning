@@ -5,6 +5,7 @@ draft: false
 tags: 
   - student
   - teacher
+  - google hangouts meet
 ---
 
 ## [Google Hangouts Meet](https://meet.google.com)とは

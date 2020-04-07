@@ -5,6 +5,7 @@ draft: false
 tags: 
   - student
   - teacher
+  - google hangouts meet
 ---
 
 ## 遠隔ミーティング
