@@ -96,5 +96,10 @@ img {
 	margin-bottom: 0px;
 }
 
-
+/* ------------------------------ */
+/* not display videos */
+/* ------------------------------ */
+video{
+	display: none;
+}
 
