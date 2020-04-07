@@ -24,6 +24,14 @@ Internet Explorerでは不具合が出る可能性があります。可能であ
 ## 使用環境（スマホから使う）
 iOS, Androidともに、アプリをインストールする必要があります。
 
+### iOS(iPhone, iPad)
+iOSを使っている人は以下のリンクから入手してください。
+
+<a href="https://apps.apple.com/us/app/hangouts-meet-by-google/id1013231476?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2017-02-27&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:45px;"></a>
+
+iOSのApp Storeで「Hangouts Meet by Google」で検索しても見つかると思います。なお、iOSのバージョンは11.0以上である必要があります。（11.0より新しいバージョンならOKです。iPhone 8より新しい機種であれば最初からiOS11以降がインストールされています。なお、2013年発売のiPhone 5s以降でしたら対応しているiOSにアップデートできます。）
+
+
 ### Android
 Androidを使っている人は以下のリンクから入手してください。
 
@@ -31,11 +39,4 @@ Androidを使っている人は以下のリンクから入手してください�
 
 Google Play Storeで「ハングアウト Meet」で検索しても見つかると思います。なお、Androidのバージョンは5.0以上である必要があります。（5.0より新しいバージョンならOKです。2015年ごろ以降に発売された端末だと最初からAndroid 5.0がインストールされていると思います。）
 
-
-### iOS(iPhone, iPad)
-iOSを使っている人は以下のリンクから入手してください。
-
-<a href="https://apps.apple.com/us/app/hangouts-meet-by-google/id1013231476?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2017-02-27&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:45px;"></a>
-
-iOSのApp Storeで「Hangouts Meet by Google」で検索しても見つかると思います。なお、iOSのバージョンは11.0である必要があります。（11.0より新しいバージョンならOKです。iPhone 8より新しい機種であれば最初からiOS11以降がインストールされています。なお、2013年発売のiPhone 5s以降でしたら対応しているiOSにアップデートできます。）
 
