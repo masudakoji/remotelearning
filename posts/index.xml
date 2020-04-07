@@ -5,13 +5,156 @@
 		<description>Recent content in Posts on 遠隔授業 補助資料</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>ja</language>
-		<lastBuildDate>Sun, 05 Apr 2020 02:40:17 +0900</lastBuildDate>
+		<lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://masudakoji.github.io/remotelearningprototype/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>webカメラやマイクの確認 (Mac編)</title>
+			<link>https://masudakoji.github.io/remotelearningprototype/posts/mac-camera-device/</link>
+			<pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearningprototype/posts/mac-camera-device/</guid>
+			<description>内臓webカメラ・内臓マイクの確認 ほとんどのMacBookやiMacなら内臓webカメラや内臓マイクは搭載されているかと思います。自身のマシ</description>
+			<content type="html"><![CDATA[<h2 id="内臓webカメラ内臓マイクの確認">内臓webカメラ・内臓マイクの確認</h2>
+<p>ほとんどのMacBookやiMacなら内臓webカメラや内臓マイクは搭載されているかと思います。自身のマシンの機能を調べてみてください。
+Macが内臓webカメラや内臓マイクを搭載しているかは以下から確かめられます。</p>
+<p>デスクトップ左上のマーク → このMacについて → システムレポート</p>
+<p>のように移動して、「オーディオ」に「内臓マイク」、「カメラ」にFaceTime Cameraがあれば内臓webカメラ・内臓マイクがあれば使えるはずです。</p>
+<h2 id="外付けカメラを接続">外付けカメラを接続</h2>
+<p>Mac miniやMac Proなどの内臓webカメラ・内臓マイクを持っていない機種の場合、外付けでwebカメラなどを接続する必要があります。Mac対応と書かれたUSB接続のwebカメラ・マイクなどを購入の上、接続してください。</p>
+<p><figure class="center">
+    <img src="1.png" width="536" height="433"/> <figcaption>
+            <h4>内臓カメラなし</h4>
+        </figcaption>
+</figure>
+
+<figure class="center">
+    <img src="2.png" width="536" height="433"/> <figcaption>
+            <h4>内臓オーディオなし</h4>
+        </figcaption>
+</figure>
+</p>
+<p>USBでwebカメラを接続すると次のように表示されます。</p>
+<figure class="center">
+    <img src="3.png" width="536" height="433"/> <figcaption>
+            <h4>USB接続のwebカメラを認識した</h4>
+        </figcaption>
+</figure>
+
+<h2 id="ブラウザから外付けカメラマイク等へのアクセスを許可する">ブラウザから外付けカメラ・マイク等へのアクセスを許可する</h2>
+<p>ブラウザからGoogle Hangouts Meetを立ち上げる時にはアクセスを許可するか聞かれると思いますので、その時に「承認」してください。間違って、「許可しない」を選択してしまい、修正できない場合は別途アクセスを許可してください。</p>
+<p>デスクトップ左上のマーク → システム環境設定 → セキュリティとプライバシー → プライバシー → カメラ</p>
+<p>のように移動して、ブラウザChromeにアクセス権を与えてください。</p>
+<figure class="center">
+    <img src="4.png" width="546" height="480"/> <figcaption>
+            <h4>Chromeにアクセス権を与える</h4>
+        </figcaption>
+</figure>
+
+]]></content>
+		</item>
+		
+		<item>
+			<title>webカメラやマイクの確認 (Win編)</title>
+			<link>https://masudakoji.github.io/remotelearningprototype/posts/win-camera-device/</link>
+			<pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearningprototype/posts/win-camera-device/</guid>
+			<description>遠隔授業、web会議、web面接について web会議には「webカメラやマイクが搭載されたPC」が必要です。webカメラやマイクが搭載されてい</description>
+			<content type="html"><![CDATA[<h2 id="遠隔授業web会議web面接について">遠隔授業、web会議、web面接について</h2>
+<p>web会議には「webカメラやマイクが搭載されたPC」が必要です。webカメラやマイクが搭載されていないPCを使う場合には、「（USBなどで）外付けのwebカメラ・マイク」が別途必要です。</p>
+<h2 id="内臓webカメラ内臓マイクの確認">内臓webカメラ・内臓マイクの確認</h2>
+<p>Windowsの場合、機種によって内臓webカメラ・内臓マイクが搭載されているかは様々ですので、各自で確認する必要があります。公式サイトにはwebカメラ搭載と書かれていてもモデルによってはwebカメラが非搭載になっているものもありますので注意してください。</p>
+<p>また、webカメラに（プライバシー保護の為の）カバーが付いている様な場合は、カバーを開けないと使えませんので、確認してください。</p>
+<h2 id="webカメラマイクにアクセスを許可する">webカメラ・マイクにアクセスを許可する</h2>
+<p>webカメラやマイクが接続されていてもアクセスが許可されていない場合、使うことができません。webカメラやマイクにアクセスが許可されているか確認してください。</p>
+<p>Windows10の場合は、次の様にします。</p>
+<p>ウィンドウズボタン → 出てくるメニューの歯車ボタン（ウィンドウズボタンの2つ上） → 設定メニューが開く → プライバシー（位置情報、カメラ） → 「カメラ」 or 「マイク」</p>
+<p><figure class="center">
+    <img src="3.png" width="400"/> <figcaption>
+            <h4>アプリがカメラを使うことを許可する</h4>
+        </figcaption>
+</figure>
+
+<figure class="center">
+    <img src="4.png" width="400"/> <figcaption>
+            <h4>アプリがマイクを使うことを許可する</h4>
+        </figcaption>
+</figure>
+</p>
+<h2 id="外付けのwebカメラを接続">外付けのwebカメラを接続</h2>
+<p>多くのカメラは、USBポートに接続すればそのまま認識して使えるようになるはずです。PCが認識しているかどうかは次のように確かめてください。</p>
+<p>Windows10の場合は、次の様にします。</p>
+<p>ウィンドウズボタン → 出てくるメニューの歯車ボタン（ウィンドウズボタンの2つ上） → 設定メニューが開く → デバイス（Bluetooth、プリンター、マウス） → 接続中のデバイス</p>
+<p><figure class="center">
+    <img src="1.png" width="400"/> <figcaption>
+            <h4>webカメラ未接続</h4>
+        </figcaption>
+</figure>
+
+<figure class="center">
+    <img src="2.png" width="400"/> <figcaption>
+            <h4>webカメラ接続時</h4>
+        </figcaption>
+</figure>
+</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Gmailアプリを設定する</title>
+			<link>https://masudakoji.github.io/remotelearningprototype/posts/setup-gmail/</link>
+			<pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearningprototype/posts/setup-gmail/</guid>
+			<description>Gmailについて 神戸高専ではGoogle社が提供する様々なサービスが使えるよう契約を結んでいます。担任や教科担当からの案内メールは、Goo</description>
+			<content type="html"><![CDATA[<h2 id="gmailについて">Gmailについて</h2>
+<p>神戸高専ではGoogle社が提供する様々なサービスが使えるよう契約を結んでいます。担任や教科担当からの案内メールは、Googleのメールサービス（Gmail）を用いています。各自のスマートフォンや家のPCなどで毎日確認するようにしてください。</p>
+<h2 id="神戸高専で受け取るメールアドレス">神戸高専で受け取るメールアドレス</h2>
+<p><strong>r&lt;学籍番号&gt;@g.kobe-kosen.ac.jp</strong><br>
+がみなさんが使えるメールアドレスです。学籍番号が123456の人はr123456@g.kobe-kosen.ac.jpになります。ハイフンやピリオドなど間違えないように注意しましょう。</p>
+<h2 id="インストールios">インストール(iOS)</h2>
+<p>App Storeで「Gmail」と検索してください。iPhoneを使っている場合は以下のリンクからも入手できます。</p>
+<p><a href="https://apps.apple.com/jp/app/gmail-e%E3%83%A1%E3%83%BC%E3%83%AB-by-google/id422689480?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2011-11-02&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></p>
+<hr>
+<center>
+    <video width=250 height=448 controls>
+      <source src=1.mp4 type="video/mp4">
+    </video>
+</center>
+<h2 id="アカウントの設定">アカウントの設定</h2>
+<p>インストールしたGmailをアプリを立ちあげて、ログインボタンを押してください。</p>
+<p><figure class="center">
+    <img src="1.png" width="250" height="448"/> <figcaption>
+            <h4>アプリを立ち上げて「ログイン」をタップ</h4>
+        </figcaption>
+</figure>
+
+<figure class="center">
+    <img src="2.jpg" width="250" height="448"/> <figcaption>
+            <h4>アカウントの追加で「Google」を選択する</h4>
+        </figcaption>
+</figure>
+
+<figure class="center">
+    <img src="3.jpg" width="250" height="448"/> <figcaption>
+            <h4>受け取ったメールアドレスとパスワードを入力する</h4>
+        </figcaption>
+</figure>
+</p>
+<hr>
+<center>
+    <video width=250 height=448 controls>
+      <source src=2.mp4 type="video/mp4">
+    </video>
+</center>
+]]></content>
+		</item>
 		
 		<item>
 			<title>招待されたミーティングに参加する</title>
 			<link>https://masudakoji.github.io/remotelearningprototype/posts/join-meeting/</link>
-			<pubDate>Sun, 05 Apr 2020 02:40:17 +0900</pubDate>
+			<pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
 			
 			<guid>https://masudakoji.github.io/remotelearningprototype/posts/join-meeting/</guid>
 			<description>遠隔ミーティング Google Hangouts Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などはGoogle Hangouts Meetの導入方</description>
@@ -107,56 +250,6 @@
         </figcaption>
 </figure>
 
-]]></content>
-		</item>
-		
-		<item>
-			<title>Gmailアプリを設定する</title>
-			<link>https://masudakoji.github.io/remotelearningprototype/posts/setup-gmail/</link>
-			<pubDate>Sun, 05 Apr 2020 01:25:31 +0900</pubDate>
-			
-			<guid>https://masudakoji.github.io/remotelearningprototype/posts/setup-gmail/</guid>
-			<description>Gmailについて 神戸高専ではGoogle社が提供する様々なサービスが使えるよう契約を結んでいます。担任や教科担当からの案内メールは、Goo</description>
-			<content type="html"><![CDATA[<h2 id="gmailについて">Gmailについて</h2>
-<p>神戸高専ではGoogle社が提供する様々なサービスが使えるよう契約を結んでいます。担任や教科担当からの案内メールは、Googleのメールサービス（Gmail）を用いています。各自のスマートフォンや家のPCなどで毎日確認するようにしてください。</p>
-<h2 id="神戸高専で受け取るメールアドレス">神戸高専で受け取るメールアドレス</h2>
-<p><strong>r&lt;学籍番号&gt;@g.kobe-kosen.ac.jp</strong><br>
-がみなさんが使えるメールアドレスです。学籍番号が123456の人はr123456@g.kobe-kosen.ac.jpになります。ハイフンやピリオドなど間違えないように注意しましょう。</p>
-<h2 id="インストールios">インストール(iOS)</h2>
-<p>App Storeで「Gmail」と検索してください。iPhoneを使っている場合は以下のリンクからも入手できます。</p>
-<p><a href="https://apps.apple.com/jp/app/gmail-e%E3%83%A1%E3%83%BC%E3%83%AB-by-google/id422689480?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2011-11-02&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></p>
-<hr>
-<center>
-    <video width=250 height=448 controls>
-      <source src=1.mp4 type="video/mp4">
-    </video>
-</center>
-<h2 id="アカウントの設定">アカウントの設定</h2>
-<p>インストールしたGmailをアプリを立ちあげて、ログインボタンを押してください。</p>
-<p><figure class="center">
-    <img src="1.png" width="250" height="448"/> <figcaption>
-            <h4>アプリを立ち上げて「ログイン」をタップ</h4>
-        </figcaption>
-</figure>
-
-<figure class="center">
-    <img src="2.jpg" width="250" height="448"/> <figcaption>
-            <h4>アカウントの追加で「Google」を選択する</h4>
-        </figcaption>
-</figure>
-
-<figure class="center">
-    <img src="3.jpg" width="250" height="448"/> <figcaption>
-            <h4>受け取ったメールアドレスとパスワードを入力する</h4>
-        </figcaption>
-</figure>
-</p>
-<hr>
-<center>
-    <video width=250 height=448 controls>
-      <source src=2.mp4 type="video/mp4">
-    </video>
-</center>
 ]]></content>
 		</item>
 		
