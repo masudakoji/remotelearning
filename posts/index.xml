@@ -9,6 +9,64 @@
 		<atom:link href="https://masudakoji.github.io/remotelearningprototype/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>Gmail関係でよくある質問</title>
+			<link>https://masudakoji.github.io/remotelearningprototype/posts/gmail-faq/</link>
+			<pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearningprototype/posts/gmail-faq/</guid>
+			<description>よくある質問 Gmailを使う際によくある質問をまとめました。他のページなども参考にしてみてください。 Googleのメールアドレスがわかりませ</description>
+			<content type="html"><![CDATA[<h2 id="よくある質問">よくある質問</h2>
+<p>Gmailを使う際によくある質問をまとめました。他のページなども参考にしてみてください。</p>
+<ul>
+<li>Googleのメールアドレスがわかりません
+<ul>
+<li>「<strong>r&lt;学籍番号&gt;@g.kobe-kosen.ac.jp</strong>」です。</li>
+</ul>
+</li>
+<li>Googleのメールはパソコンからはどうやって読みますか
+<ul>
+<li><a href="https://mail.google.com/">https://mail.google.com/</a>にアクセスしてください</li>
+<li>ログインIDはメールアドレスです</li>
+</ul>
+</li>
+<li>Googleのメールはスマホからはどうやって読みますか
+<ul>
+<li>Gmailアプリをインストールしてください</li>
+<li>スマホに最初から入っているアプリよりGmailアプリの方がオススメ（受信後すぐに通知が来る）</li>
+<li>詳しくは<a href="https://masudakoji.github.io/remotelearningprototype/posts/setup-gmail/">Gmailアプリを設定する</a>を参考にしてください</li>
+</ul>
+</li>
+<li>Gmailのスマホアプリにアカウントを登録したい
+<ul>
+<li>Gmailアプリを起動するとアカウントの登録画面が出て来ます。</li>
+<li>メールアドレスとパスワードを入力してください</li>
+<li>詳しくは<a href="https://masudakoji.github.io/remotelearningprototype/posts/setup-gmail/">Gmailアプリを設定する</a>を参考にしてください</li>
+</ul>
+</li>
+<li>Gmailアプリには、個人で持ってるGmailアカウントを登録してしまっています
+<ul>
+<li>Gmailアプリには複数のアカウントを設定できます</li>
+<li>メールボックス左上のアイコン（横棒が3本）をタップするとメニューが出て来ます。そこから、アカウントの追加・切り替えが可能です</li>
+</ul>
+</li>
+<li>Googleでログインできません
+<ul>
+<li>「学籍番号」ではなくメールアドレスでログインしてください</li>
+<li>メールアドレスが間違っていないか確認してください</li>
+<li>ブラウザをGoogle Chromeに変えてみましょう</li>
+</ul>
+</li>
+<li>Gmailアプリで「同期エラー」が出ます
+<ul>
+<li>アプリからアカウントを一度消して、再登録してください</li>
+<li><a href="https://www.iscle.com/web-it/douki-error.html">Google同期エラー「現在同期で問題が発生しています」の解決方法</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
 			<title>webカメラやマイクの確認 (Mac編)</title>
 			<link>https://masudakoji.github.io/remotelearningprototype/posts/mac-camera-device/</link>
 			<pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
@@ -332,14 +390,14 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
 <p>Internet Explorerでは不具合が出る可能性があります。可能であればChromeブラウザをおすすめします。また、ブラウザは最新のバージョンを使うようにしてください。</p>
 <h2 id="使用環境スマホから使う">使用環境（スマホから使う）</h2>
 <p>iOS, Androidともに、アプリをインストールする必要があります。</p>
+<h3 id="iosiphone-ipad">iOS(iPhone, iPad)</h3>
+<p>iOSを使っている人は以下のリンクから入手してください。</p>
+<p><a href="https://apps.apple.com/us/app/hangouts-meet-by-google/id1013231476?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2017-02-27&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:45px;"></a></p>
+<p>iOSのApp Storeで「Hangouts Meet by Google」で検索しても見つかると思います。なお、iOSのバージョンは11.0以上である必要があります。（11.0より新しいバージョンならOKです。iPhone 8より新しい機種であれば最初からiOS11以降がインストールされています。なお、2013年発売のiPhone 5s以降でしたら対応しているiOSにアップデートできます。）</p>
 <h3 id="android">Android</h3>
 <p>Androidを使っている人は以下のリンクから入手してください。</p>
 <p><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.meetings&hl=ja&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" style="display:inline-block;overflow:hidden;background:url(https://play.google.com/intl/us-en/badges/static/images/badges/ja_badge_web_generic.png) no-repeat;width:150px;height:55px;background-size: cover;"></a></p>
 <p>Google Play Storeで「ハングアウト Meet」で検索しても見つかると思います。なお、Androidのバージョンは5.0以上である必要があります。（5.0より新しいバージョンならOKです。2015年ごろ以降に発売された端末だと最初からAndroid 5.0がインストールされていると思います。）</p>
-<h3 id="iosiphone-ipad">iOS(iPhone, iPad)</h3>
-<p>iOSを使っている人は以下のリンクから入手してください。</p>
-<p><a href="https://apps.apple.com/us/app/hangouts-meet-by-google/id1013231476?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2017-02-27&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:45px;"></a></p>
-<p>iOSのApp Storeで「Hangouts Meet by Google」で検索しても見つかると思います。なお、iOSのバージョンは11.0である必要があります。（11.0より新しいバージョンならOKです。iPhone 8より新しい機種であれば最初からiOS11以降がインストールされています。なお、2013年発売のiPhone 5s以降でしたら対応しているiOSにアップデートできます。）</p>
 ]]></content>
 		</item>
 		

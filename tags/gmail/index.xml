@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gmail on 遠隔授業 補助資料</title>
+    <link>https://masudakoji.github.io/remotelearningprototype/tags/gmail/</link>
+    <description>Recent content in gmail on 遠隔授業 補助資料</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://masudakoji.github.io/remotelearningprototype/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gmail関係でよくある質問</title>
+      <link>https://masudakoji.github.io/remotelearningprototype/posts/gmail-faq/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearningprototype/posts/gmail-faq/</guid>
+      <description>よくある質問 Gmailを使う際によくある質問をまとめました。他のページなども参考にしてみてください。 Googleのメールアドレスがわかりませ</description>
+    </item>
+    
+    <item>
+      <title>Gmailアプリを設定する</title>
+      <link>https://masudakoji.github.io/remotelearningprototype/posts/setup-gmail/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearningprototype/posts/setup-gmail/</guid>
+      <description>Gmailについて 神戸高専ではGoogle社が提供する様々なサービスが使えるよう契約を結んでいます。担任や教科担当からの案内メールは、Goo</description>
+    </item>
+    
+  </channel>
+</rss>
