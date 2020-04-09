@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>win on 遠隔授業 補助資料</title>
-    <link>https://masudakoji.github.io/remotelearningprototype/tags/win/</link>
+    <link>https://masudakoji.github.io/remotelearning/tags/win/</link>
     <description>Recent content in win on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://masudakoji.github.io/remotelearningprototype/tags/win/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masudakoji.github.io/remotelearning/tags/win/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>webカメラやマイクの確認 (Win編)</title>
-      <link>https://masudakoji.github.io/remotelearningprototype/posts/win-camera-device/</link>
+      <link>https://masudakoji.github.io/remotelearning/posts/win-camera-device/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masudakoji.github.io/remotelearningprototype/posts/win-camera-device/</guid>
+      <guid>https://masudakoji.github.io/remotelearning/posts/win-camera-device/</guid>
       <description>遠隔授業、web会議、web面接について web会議には「webカメラやマイクが搭載されたPC」が必要です。webカメラやマイクが搭載されてい</description>
     </item>
     
