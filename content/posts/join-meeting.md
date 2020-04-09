@@ -9,12 +9,12 @@ tags:
 ---
 
 ## 遠隔ミーティング
-Google Hangouts Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などは[Google Hangouts Meetの導入方法]({{< ref "introduction-of-google-hangouts-meet.md" >}})を参考にしてください。
+Google Hangouts Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などは[Google Hangouts Meetの導入方法]({{<ref "introduction-of-google-hangouts-meet.md" >}})を参考にしてください。
 
 
 ## ミーティングに参加する
 自分でミーティングを立ち上げて、他の人を招待する場合について説明します。
-招待されたミーティングに参加する方法は[ミーティングを始める]({{< ref "start-meeting.md" >}})を参考にしてください。
+招待されたミーティングに参加する方法は[ミーティングを始める]({{<ref "start-meeting.md" >}})を参考にしてください。
 
 
 ## 招待を受ける（PC）
