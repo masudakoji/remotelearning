@@ -1,4 +1,4 @@
-baseURL = "https://masudakoji.github.io/remotelearningprototype/"
+baseURL = "https://masudakoji.github.io/remotelearning/"
 languageCode = "ja"
 title = "遠隔授業 補助資料"
 theme = "hermit"
@@ -38,7 +38,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/masudakoji/remotelearningprototype"
+    url = "https://github.com/masudakoji/remotelearning"
 
 [menu]
 
