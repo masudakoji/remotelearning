@@ -5,8 +5,137 @@
 		<description>Recent content in Posts on 遠隔授業 補助資料</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>ja</language>
-		<lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Fri, 10 Apr 2020 15:17:07 +0900</lastBuildDate>
 		<atom:link href="https://masudakoji.github.io/remotelearning/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>「セキュリティ通知」メールが届いた時の対応</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/security-alert-gmail/</link>
+			<pubDate>Fri, 10 Apr 2020 15:17:07 +0900</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/security-alert-gmail/</guid>
+			<description>他のデバイスでログインした時 普段はスマホのアプリでGmailを見ているかと思いますが、学校のPCやその他のデバイスなど、普段使っていないデバ</description>
+			<content type="html"><![CDATA[<h2 id="他のデバイスでログインした時">他のデバイスでログインした時</h2>
+<p>普段はスマホのアプリでGmailを見ているかと思いますが、学校のPCやその他のデバイスなど、普段使っていないデバイスでログインした際にはGoogleから「セキュリティ通知」という件名のメールが届くことがあります。</p>
+<p>このメールを無視したままにしてしまうと、アカウントがロックされてしまいメールが送受信できなくなる可能性があります。忘れずに「アクティビティを確認」するようにしてください。</p>
+<h2 id="アクティビティを確認する方法">アクティビティを確認する方法</h2>
+<p>メールの「アクティビティを確認」をクリックして、確認画面に進んでください。その際パスワードを入力する必要があれば入力してください。
+<figure class="center">
+    <img src="1.png" width="250"/> <figcaption>
+            <h4>Googleから届くメール</h4>
+        </figcaption>
+</figure>
+</p>
+<p>アクティビティの詳細を確認して、時間や場所に心当たりがあれば「はい、心当たりがあります」をクリックしてください。
+<figure class="center">
+    <img src="2.png" width="250"/> <figcaption>
+            <h4>メール文面の例</h4>
+        </figcaption>
+</figure>
+</p>
+<p>完了しました。
+<figure class="center">
+    <img src="3.png" width="250"/> <figcaption>
+            <h4>メール文面の例</h4>
+        </figcaption>
+</figure>
+</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Googleのパスワードを変更する</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/change-password/</link>
+			<pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/change-password/</guid>
+			<description>Googleのパスワード 学校から配布されたパスワードは仮のパスワードですので、各自で覚えやすいパスワードの変更するなどの対応をよろしくお願い</description>
+			<content type="html"><![CDATA[<h2 id="googleのパスワード">Googleのパスワード</h2>
+<p>学校から配布されたパスワードは仮のパスワードですので、各自で覚えやすいパスワードの変更するなどの対応をよろしくお願いします。
+変更されたパスワードは自分自身しかわかりませんので、忘れないようにしてください。</p>
+<p>このパスワードはGmailだけではなく他のGoogleのサービスとも共通のパスワードです。</p>
+<h2 id="パスワードの変更">パスワードの変更</h2>
+<p>まずはGmailアプリを起動してください。
+<figure class="center">
+    <img src="1.png" width="250"/> <figcaption>
+            <h4>アプリを起動した時</h4>
+        </figcaption>
+</figure>
+</p>
+<p>左上のアイコン（横棒が3本並んでいる）をクリックしてメニューを開いてください。選んだメニューの下の方にある「設定」を選んでください。
+<figure class="center">
+    <img src="2.png" width="250"/> <figcaption>
+            <h4>メニュー画面。「設定」を選ぶ</h4>
+        </figcaption>
+</figure>
+</p>
+<p>複数のアカウントリストがありましたら、先週したいアカウントを選んでください。設定一覧が出てきましたらGoogleアカウントの管理を選択してください。
+<figure class="center">
+    <img src="3.png" width="250"/> <figcaption>
+            <h4>Googleアカウントの管理を選択する</h4>
+        </figcaption>
+</figure>
+</p>
+<p>いくつか設定項目が出てきますが、「セキュリティ」のタブを探してください。その中で「Googleへのログイン」の中の「パスワード」を選択してください。
+<figure class="center">
+    <img src="4.png" width="250"/> <figcaption>
+            <h4>起動した時</h4>
+        </figcaption>
+</figure>
+</p>
+<p>新しいパスワードを2回入力します。
+<figure class="center">
+    <img src="5.png" width="250"/> <figcaption>
+            <h4>パスワード入力</h4>
+        </figcaption>
+</figure>
+</p>
+<p>これで変更が完了しました。
+<figure class="center">
+    <img src="6.png" width="250"/> <figcaption>
+            <h4>完了しました</h4>
+        </figcaption>
+</figure>
+</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Gmailでメールを送る</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/sendmail-gmail/</link>
+			<pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/sendmail-gmail/</guid>
+			<description>Gmailアプリのインストール Gmailアプリのインストールが出来ていない人はインストール方法を参考にしてインストールしてください。 Gmai</description>
+			<content type="html"><![CDATA[<h2 id="gmailアプリのインストール">Gmailアプリのインストール</h2>
+<p>Gmailアプリのインストールが出来ていない人は<a href="https://masudakoji.github.io/remotelearning/posts/setup-gmail/">インストール方法</a>を参考にしてインストールしてください。</p>
+<h2 id="gmailアプリからメールを送るios">Gmailアプリからメールを送る(iOS)</h2>
+<figure class="center">
+    <img src="1.png" width="250"/> <figcaption>
+            <h4>起動した時</h4>
+        </figcaption>
+</figure>
+
+<p>右下の「＋」ボタンを押します。</p>
+<figure class="center">
+    <img src="2.png" width="250"/> <figcaption>
+            <h4>メール入力画面</h4>
+        </figcaption>
+</figure>
+
+<p>Toの所に送りたい人のメールアドレスを入力します。担任の先生や教科担当の先生のアドレスを入れます。メールアドレスを間違えない様に注意しましょう。</p>
+<p>皆さんのアドレスは<strong>r&lt;学籍番号&gt;@g.kobe-kosen.ac.jp</strong>ですが、先生のアドレスは <strong>〜〜〜@kobe-kosen.ac.jp</strong> ですので注意してください。（@の後に”g.”が有るか無いかに注意する）</p>
+<p>先生にメールを送るときは、<strong>件名</strong>を書く、<strong>宛名</strong>（〇〇先生、など）を書く、<strong>自分の情報</strong>（名前、クラス、部活など）を書く、などに気をつけてメールを作成しましょう。
+さらに最後に自分の署名もつけておくと、ベターかと思います。
+<figure class="center">
+    <img src="3.png" width="250"/> <figcaption>
+            <h4>メール文面の例</h4>
+        </figcaption>
+</figure>
+</p>
+<p>メールを作成し終わったら、右上の送信ボタンを押して送信してください。</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Gmail関係でよくある質問</title>
@@ -206,6 +335,9 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
       <source src=2.mp4 type="video/mp4">
     </video>
 </center>
+<h2 id="メールの送信">メールの送信</h2>
+<p>Gmailアプリの設定ができましたら<a href="https://masudakoji.github.io/remotelearning/posts/sendmail-gmail/">Gmailでメールを送る</a>を参考にしてメールを送ってみましょう。
+また、Gmail関係のハッシュタグ<a href="https://masudakoji.github.io/remotelearning/tags/gmail/">#gmail</a>も見ておくようにしてください。</p>
 ]]></content>
 		</item>
 		

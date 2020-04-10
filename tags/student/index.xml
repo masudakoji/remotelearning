@@ -6,10 +6,37 @@
     <description>Recent content in student on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 15:17:07 +0900</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearning/tags/student/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>「セキュリティ通知」メールが届いた時の対応</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/security-alert-gmail/</link>
+      <pubDate>Fri, 10 Apr 2020 15:17:07 +0900</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/security-alert-gmail/</guid>
+      <description>他のデバイスでログインした時 普段はスマホのアプリでGmailを見ているかと思いますが、学校のPCやその他のデバイスなど、普段使っていないデバ</description>
+    </item>
+    
+    <item>
+      <title>Googleのパスワードを変更する</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/change-password/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/change-password/</guid>
+      <description>Googleのパスワード 学校から配布されたパスワードは仮のパスワードですので、各自で覚えやすいパスワードの変更するなどの対応をよろしくお願い</description>
+    </item>
+    
+    <item>
+      <title>Gmailでメールを送る</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/sendmail-gmail/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/sendmail-gmail/</guid>
+      <description>Gmailアプリのインストール Gmailアプリのインストールが出来ていない人はインストール方法を参考にしてインストールしてください。 Gmai</description>
+    </item>
     
     <item>
       <title>webカメラやマイクの確認 (Mac編)</title>
