@@ -44,3 +44,4 @@ App Storeで「Gmail」と検索してください。iPhoneを使っている場
 
 ## メールの送信
 Gmailアプリの設定ができましたら[Gmailでメールを送る]({{<ref "sendmail-gmail.md">}})を参考にしてメールを送ってみましょう。
+また、Gmail関係のハッシュタグ[#gmail]({{<ref "../tags/gmail/">}})も見ておくようにしてください。
