@@ -14,6 +14,8 @@ Google Hangouts Meetを使って、遠隔での授業やディスカッション
 
 
 ## 記事の一覧
-[教員向け記事一覧]({{<ref "tags/teacher/" >}})
+記事はハッシュタグからもたどれます。参考にしてください。各記事の下にもハッシュタグはありますので、そこから関連記事を探すことができます。
 
-
+- [#google-hangouts-meet]({{<ref "tags/google-hangouts-meet/">}}) - Google Hangouts Meet関係  
+- [#teacher]({{<ref "tags/teacher/">}}) - 教員向け記事  
+- [#student]({{<ref "tags/student/">}}) - 学生向け記事  
