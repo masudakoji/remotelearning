@@ -16,12 +16,12 @@ tags:
 
 ## アクティビティを確認する方法
 メールの「アクティビティを確認」をクリックして、確認画面に進んでください。その際パスワードを入力する必要があれば入力してください。
-{{< figure src="1.png" title="Googleから届くメール" class="center" width="250">}}
+{{<figure src="1.png" title="Googleから届くメール" class="center" width="250">}}
 
 
 アクティビティの詳細を確認して、時間や場所に心当たりがあれば「はい、心当たりがあります」をクリックしてください。
-{{< figure src="2.png" title="メール文面の例" class="center" width="250">}}
+{{<figure src="2.png" title="メール文面の例" class="center" width="250">}}
 
 
 完了しました。
-{{< figure src="3.png" title="メール文面の例" class="center" width="250">}}
+{{<figure src="3.png" title="メール文面の例" class="center" width="250">}}

@@ -32,9 +32,9 @@ App Storeで「Gmail」と検索してください。iPhoneを使っている場
 ## アカウントの設定
 インストールしたGmailをアプリを立ちあげて、ログインボタンを押してください。
 
-{{< figure src="1.png" title="アプリを立ち上げて「ログイン」をタップ" class="center" width="250" height="448" >}}
-{{< figure src="2.jpg" title="アカウントの追加で「Google」を選択する" class="center" width="250" height="448" >}}
-{{< figure src="3.jpg" title="受け取ったメールアドレスとパスワードを入力する" class="center" width="250" height="448" >}}
+{{<figure src="1.png" title="アプリを立ち上げて「ログイン」をタップ" class="center" width="250" height="448" >}}
+{{<figure src="2.jpg" title="アカウントの追加で「Google」を選択する" class="center" width="250" height="448" >}}
+{{<figure src="3.jpg" title="受け取ったメールアドレスとパスワードを入力する" class="center" width="250" height="448" >}}
 
 
 
