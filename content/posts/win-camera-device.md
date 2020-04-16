@@ -6,7 +6,7 @@ tags:
   - student
   - teacher
   - win
-  - google hangouts meet
+  - google meet
 ---
 
 ## 遠隔授業、web会議、web面接について

@@ -5,11 +5,11 @@ draft: false
 tags: 
   - student
   - teacher
-  - google hangouts meet
+  - google meet
 ---
 
 ## 遠隔ミーティング
-Google Hangouts Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などは[Google Hangouts Meetの導入方法]({{<ref "introduction-of-google-hangouts-meet.md" >}})を参考にしてください。
+Google Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などは[Google Meetの導入方法]({{<ref "introduction-of-google-hangouts-meet.md" >}})を参考にしてください。
 
 
 ## ミーティングを立ち上げる
@@ -17,7 +17,7 @@ Google Hangouts Meetが学生とのディスカッションや教員間のミー
 招待されたミーティングに参加する方法は[招待されたミーティングに参加する]({{<ref "join-meeting.md" >}})を参考にしてください。
 
 
-学校から配布されたGoogleアカウントでログインしているか確かめた上で、[Google Hangouts Meet](https://meet.google.com)にアクセスしてください。
+学校から配布されたGoogleアカウントでログインしているか確かめた上で、[Google Meet](https://meet.google.com)にアクセスしてください。
 
 {{<figure src="1.png" title="「ミーティングに参加または開始」をクリック" class="center" >}}
 {{<figure src="2.png" title="自分でミーティングコードを設定する場合は入力してください。空白のままでも構いません。" class="center" >}}

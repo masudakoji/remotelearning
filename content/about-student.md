@@ -19,9 +19,9 @@ tags:
 
 
 ## 遠隔授業
-Google Hangouts Meetを使って、遠隔での授業やディスカッションができるように検討しています。そのための準備や操作法について説明しています。
+Google Meetを使って、遠隔での授業やディスカッションができるように検討しています。そのための準備や操作法について説明しています。
 
-- [Google Hangouts Meetの導入方法]({{<ref "posts/introduction-of-google-hangouts-meet.md" >}})
+- [Google Meetの導入方法]({{<ref "posts/introduction-of-google-hangouts-meet.md" >}})
 - [授業への参加]({{<ref "posts/join-meeting.md" >}})
 
 
@@ -30,7 +30,7 @@ Google Hangouts Meetを使って、遠隔での授業やディスカッション
 記事はハッシュタグからもたどれます。参考にしてください。各記事の下にもハッシュタグはありますので、そこから関連記事を探すことができます。
 
 - [#gmail]({{<ref "tags/gmail/">}}) - Gmail関係  
-- [#google-hangouts-meet]({{<ref "tags/google-hangouts-meet/">}}) - Google Hangouts Meet関係  
+- [#google-meet]({{<ref "tags/google-meet/">}}) - Google Meet関係  
 - [#student]({{<ref "tags/student/">}}) - 学生向け記事  
 
 
