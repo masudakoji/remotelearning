@@ -5,6 +5,7 @@ draft: false
 tags: 
   - gmail
   - student
+  - teacher
 ---
 
 ## 他のデバイスでログインした時

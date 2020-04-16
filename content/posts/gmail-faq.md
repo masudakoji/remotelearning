@@ -4,6 +4,7 @@ date: 2020-04-07
 draft: false
 tags: 
   - gmail
+  - student
 ---
 
 ## よくある質問
