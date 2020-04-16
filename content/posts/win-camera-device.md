@@ -26,8 +26,8 @@ Windows10の場合は、次の様にします。
 
 ウィンドウズボタン → 出てくるメニューの歯車ボタン（ウィンドウズボタンの2つ上） → 設定メニューが開く → プライバシー（位置情報、カメラ） → 「カメラ」 or 「マイク」
 
-{{<figure src="3.png" title="アプリがカメラを使うことを許可する" class="center" width="400" >}}
-{{<figure src="4.png" title="アプリがマイクを使うことを許可する" class="center" width="400" >}}
+{{<figure src="3.png" title="アプリがカメラを使うことを許可する" class="center" width="400">}}
+{{<figure src="4.png" title="アプリがマイクを使うことを許可する" class="center" width="400">}}
 
 
 ## 外付けのwebカメラを接続
@@ -37,7 +37,7 @@ Windows10の場合は、次の様にします。
 
 ウィンドウズボタン → 出てくるメニューの歯車ボタン（ウィンドウズボタンの2つ上） → 設定メニューが開く → デバイス（Bluetooth、プリンター、マウス） → 接続中のデバイス
 
-{{<figure src="1.png" title="webカメラ未接続" class="center" width="400" >}}
-{{<figure src="2.png" title="webカメラ接続時" class="center" width="400" >}}
+{{<figure src="1.png" title="webカメラ未接続" class="center" width="400">}}
+{{<figure src="2.png" title="webカメラ接続時" class="center" width="400">}}
 
 

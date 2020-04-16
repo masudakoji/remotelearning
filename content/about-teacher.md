@@ -8,9 +8,9 @@ tags:
 ## 遠隔授業
 Google Meetを使って、遠隔での授業やディスカッションができるように検討しています。そのための準備や操作法について説明しています。
 
-- [Google Meetの導入方法]({{<ref "posts/introduction-of-google-hangouts-meet.md" >}})
-- [ミーティングを開始する]({{<ref "posts/start-meeting.md" >}})
-- [招待されたミーティングに参加する]({{<ref "posts/join-meeting.md" >}})
+- [Google Meetの導入方法]({{<ref "posts/introduction-of-google-hangouts-meet.md">}})
+- [ミーティングを開始する]({{<ref "posts/start-meeting.md">}})
+- [招待されたミーティングに参加する]({{<ref "posts/join-meeting.md">}})
 
 
 ## 記事の一覧
