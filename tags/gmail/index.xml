@@ -6,10 +6,19 @@
     <description>Recent content in gmail on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 10 Apr 2020 15:17:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearning/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>学校からのメールを受け取れるようにする</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/set-non-spam/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/set-non-spam/</guid>
+      <description>学校からの連絡を受け取れるようにする 学校からの連絡や、授業担当の先生からの連絡は神戸高専のメールアドレスか、神戸高専が契約しているGoogl</description>
+    </item>
     
     <item>
       <title>「セキュリティ通知」メールが届いた時の対応</title>

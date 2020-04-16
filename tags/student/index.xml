@@ -6,10 +6,28 @@
     <description>Recent content in student on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 10 Apr 2020 15:17:07 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearning/tags/student/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>webカメラやマイクがブロックされている場合</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/camera-microphone-permission/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/camera-microphone-permission/</guid>
+      <description>Google Meet使用時の注意 Google Meetでweb会議をする際にカメラやマイクを使用することになると思いますが、その際、カメラやマイクにアクセス権が付</description>
+    </item>
+    
+    <item>
+      <title>学校からのメールを受け取れるようにする</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/set-non-spam/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/set-non-spam/</guid>
+      <description>学校からの連絡を受け取れるようにする 学校からの連絡や、授業担当の先生からの連絡は神戸高専のメールアドレスか、神戸高専が契約しているGoogl</description>
+    </item>
     
     <item>
       <title>「セキュリティ通知」メールが届いた時の対応</title>
@@ -36,6 +54,15 @@
       
       <guid>https://masudakoji.github.io/remotelearning/posts/sendmail-gmail/</guid>
       <description>Gmailアプリのインストール Gmailアプリのインストールが出来ていない人はインストール方法を参考にしてインストールしてください。 Gmai</description>
+    </item>
+    
+    <item>
+      <title>Gmail関係でよくある質問</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/gmail-faq/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/gmail-faq/</guid>
+      <description>よくある質問 Gmailを使う際によくある質問をまとめました。他のページなども参考にしてみてください。 Googleのメールアドレスがわかりませ</description>
     </item>
     
     <item>
@@ -71,34 +98,7 @@
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://masudakoji.github.io/remotelearning/posts/join-meeting/</guid>
-      <description>遠隔ミーティング Google Hangouts Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などはGoogle Hangouts Meetの導入方</description>
-    </item>
-    
-    <item>
-      <title>ミーティングを始める</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/start-meeting/</link>
-      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/posts/start-meeting/</guid>
-      <description>遠隔ミーティング Google Hangouts Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などはGoogle Hangouts Meetの導入方</description>
-    </item>
-    
-    <item>
-      <title>遠隔での授業について（学生向け）</title>
-      <link>https://masudakoji.github.io/remotelearning/about-student/</link>
-      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/about-student/</guid>
-      <description>遠隔授業について 現在の状況をみると、通常通りの授業が再開できるのはまだ先になる可能性があります。そのために、遠隔での講義やディスカッションが</description>
-    </item>
-    
-    <item>
-      <title>Google Hangouts Meetの導入方法</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/introduction-of-google-hangouts-meet/</link>
-      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/posts/introduction-of-google-hangouts-meet/</guid>
-      <description>Google Hangouts Meetとは Googleが提供するビデオ通話サービスです。学生や教職員のみなさんが持っている神戸高専のGoogleアカウントで利用可能で</description>
+      <description>遠隔ミーティング Google Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などはGoogle Meetの導入方法を</description>
     </item>
     
   </channel>
