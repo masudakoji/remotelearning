@@ -1,5 +1,5 @@
 ---
-title: "自分のPCの画面を共有"
+title: "会議中に自分のPCの画面を共有"
 date: 2020-04-17
 draft: true
 images:
