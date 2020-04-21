@@ -1,7 +1,7 @@
 ---
 title: "Google Meetでの画面共有に手書き文字を書く (Mac対象)"
 date: 2020-04-21
-draft: true
+draft: false
 tags: 
   - teacher
   - google meet

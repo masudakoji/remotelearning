@@ -1,7 +1,7 @@
 ---
 title: "会議中に自分のPCの画面を共有"
 date: 2020-04-17
-draft: true
+draft: false
 images:
 tags: 
   - teacher
