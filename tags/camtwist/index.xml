@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mac on 遠隔授業 補助資料</title>
-    <link>https://masudakoji.github.io/remotelearning/tags/mac/</link>
-    <description>Recent content in mac on 遠隔授業 補助資料</description>
+    <title>camtwist on 遠隔授業 補助資料</title>
+    <link>https://masudakoji.github.io/remotelearning/tags/camtwist/</link>
+    <description>Recent content in camtwist on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://masudakoji.github.io/remotelearning/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masudakoji.github.io/remotelearning/tags/camtwist/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,12 +21,12 @@
     </item>
     
     <item>
-      <title>webカメラやマイクの確認 (Mac編)</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/mac-camera-device/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      <title>会議中に自分のPCの画面を共有</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/cast-your-screen/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://masudakoji.github.io/remotelearning/posts/mac-camera-device/</guid>
-      <description>内臓webカメラ・内臓マイクの確認 ほとんどのMacBookやiMacなら内臓webカメラや内臓マイクは搭載されているかと思います。自身のマシ</description>
+      <guid>https://masudakoji.github.io/remotelearning/posts/cast-your-screen/</guid>
+      <description>自分のPCの画面を共有する Google Meetでは、参加者に自分のPCの画面を共有することができます。デスクトップ全体を共有するか、アプリケーションの</description>
     </item>
     
   </channel>

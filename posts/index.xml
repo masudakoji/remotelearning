@@ -5,8 +5,148 @@
 		<description>Recent content in Posts on 遠隔授業 補助資料</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>ja</language>
-		<lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://masudakoji.github.io/remotelearning/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Google Meetでの画面共有に手書き文字を書く (Mac対象)</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/screen-casting-with-camtwist/</link>
+			<pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/screen-casting-with-camtwist/</guid>
+			<description>Google Meetでの画面共有 #Google Meetでは自分の画面を共有することができます。デスクトップ全体を共有したり、個別のウインドウを共有したりできます。</description>
+			<content type="html"><![CDATA[<h2 id="google-meetでの画面共有">Google Meetでの画面共有</h2>
+<p><a href="https://masudakoji.github.io/remotelearning/tags/google-meet/">#Google Meet</a>では自分の画面を共有することができます。デスクトップ全体を共有したり、個別のウインドウを共有したりできます。詳細は<a href="https://masudakoji.github.io/remotelearning/posts/cast-your-screen/">会議中に自分のPCの画面を共有</a>を参照にしてください。ですが、Google Meetの機能では単純な画面共有で、手書きのメモを記入したりはできません。ここでは、別のソフトを介してこの機能を実現します。今回紹介するのはMac用のソフトですが、Windowsでも同様のソフトはあるかと思います。</p>
+<h2 id="camtwist">CamTwist</h2>
+<p><a href="https://masudakoji.github.io/remotelearning/tags/camtwist/">#CamTwist</a>は仮想的なカメラとして動作します。インストールすると、Google Meetの動画入力にCamTwistが表示されます。</p>
+<h3 id="インストール">インストール</h3>
+<p><a href="http://camtwiststudio.com">http://camtwiststudio.com</a>にアクセスしてインストールしてください。Mac OS 10.10以上が推奨されています。DLしたdmgファイルを実行するとインストールができます。最近のMac OS（Sierra以降）だと「開発元が未確認」というエラーが出ますので、適切に対応してください。（<a href="https://support.apple.com/ja-jp/guide/mac-help/mh40616/mac">開発元が未確認のMacアプリケーションを開く</a>を参照）</p>
+<h3 id="動作画面と初期設定">動作画面と初期設定</h3>
+<p>インストールして起動するとこのような画面が出て来ます。
+<figure class="center">
+    <img src="1.png"/> <figcaption>
+            <h4>動作画面</h4>
+        </figcaption>
+</figure>
+</p>
+<p>Step 1では入力する映像ソース（webカメラやデスクトップやアプリケーションの画面など）を選択します。Step 2では様々なエフェクトをかけることができます。手書きなどもここで呼び出します。Step 3では設定の確認と保存・呼び出しなどができます。</p>
+<p>Preferencesを開くと、出力解像度やFPSなどが設定できます。初期設定だと解像度が低いので適宜調整してください。ただし、解像度をあげすぎると処理落ちする可能性があるので、PCの能力に合わせて調整してください。
+<figure class="center">
+    <img src="2.png" width="350"/> <figcaption>
+            <h4>設定画面</h4>
+        </figcaption>
+</figure>
+</p>
+<h3 id="webカメラの映像をそのまま出力する">webカメラの映像をそのまま出力する</h3>
+<p>まずは動作確認のために、webカメラをそのまま出力します。Step 1でWebcamを選択してアプリ下部の「Select」をクリックするとStep 3に「Webcam」が追加されます。
+<figure class="center">
+    <img src="3.png"/> <figcaption>
+            <h4>Webカメラ呼び出し</h4>
+        </figcaption>
+</figure>
+</p>
+<p>Google Meetの設定（<a href="https://masudakoji.github.io/remotelearning/posts/join-meeting/#画質などの設定">画質などの設定</a>を参考）を開いて、動画の設定を開くとカメラのソースを選択できますが、CamTwistインストール前は内臓のwebカメラや外付けのwebカメラが表示されるはずですが、ここにCamTwistという名前の仮想的なカメラが表示されます。CamTwist（2VUY）を選べばよいです。問題があればCamTwistを選択してみてください。</p>
+<figure class="center">
+    <img src="4.png" width="450"/> <figcaption>
+            <h4>Google MeetでCamTwistをカメラとして呼び出す</h4>
+        </figcaption>
+</figure>
+
+<p>これでGoogle Meetで相手に動画がCamTwist経由で配信されます。</p>
+<h3 id="アプリケーションの画面を出力する">アプリケーションの画面を出力する</h3>
+<p>Step 1で「Desktop+」を選択するとデスクトップの画面を配信できます。「Full Screen」にチェックが入っているとデスクトップ全体が共有されますが、「Confine to Application Window」を選択するとアプリケーションの画面を共有できます。「Select from existing windows」からアプリケーションを選択してください。</p>
+<figure class="center">
+    <img src="5.png"/> <figcaption>
+            <h4>アプリケーションを選択して出力</h4>
+        </figcaption>
+</figure>
+
+<p>ただ、PowerPointの場合、フルスクリーンにするとアプリケーションとの接続が切れてしまいます。その場合アプリケーション名を正規表現で指定します。例えば「Regex Search」に&quot;PowerPoint&quot;と入力するとPowerPointをフルスクリーン表示にしても捕捉し続ける事が出来ます。他のアプリケーションも正規表現を使って指定すれば対応はできるかと思います。</p>
+<figure class="center">
+    <img src="6.png"/> <figcaption>
+            <h4>アプリケーション名を正規表現で指定</h4>
+        </figcaption>
+</figure>
+
+<h3 id="手書き文字を重ねる推奨-ペンタブ">手書き文字を重ねる（推奨: ペンタブ）</h3>
+<p>webカメラやアプリケーションの画面に手書きを重ねるためにはStep 2で「Telestrator」を選択してください。選択すると、手書き入力画面が出て来ますので、色やペンサイズなどを設定して手書きすれば、その手書きが重なった状態で配信されます。</p>
+<p><figure class="center">
+    <img src="7.png" width="350"/> <figcaption>
+            <h4>手書き入力画面</h4>
+        </figcaption>
+</figure>
+
+<figure class="center">
+    <img src="8.png" width="350"/> <figcaption>
+            <h4>手書き入力画面</h4>
+        </figcaption>
+</figure>
+</p>
+<p>Google Meet上では左右が反転して見えていますが、問題はありません。相手には反転してない状態で配信されています。</p>
+<figure class="center">
+    <img src="9.png" width="450"/> <figcaption>
+            <h4>Google Meet上では左右反転して見える</h4>
+        </figcaption>
+</figure>
+
+<p>マウスやトラックパッドでもできますが、ペンタブがあるともっと書きやすくなると思います。ペンタブの使い方や設定はそれぞれの説明を参考にしてください。</p>
+<p>webカメラや何らかのアプリケーションの上に手書き文字を重ねることもできますが、Video source (WebcamとかDesktopとか) なしでも手書き入力は出来ます。ただ、その場合背景が黒になってしまいますが、「Color Invert」フィルタをかけると白黒反転するので、ホワイトボード？的に使う事が出来ます。フィルタの順番には注意しましょう。</p>
+<h3 id="クロマキー合成推奨-グリーンバック">クロマキー合成（推奨: グリーンバック）</h3>
+<p>Google Meetには背景を変える機能はないのですが、CamTwistにはクロマキー合成機能がありますので、webカメラを使いながら背景を変える事も出来ます。背景に風景画像？を使う事も出来ますし、PowerPointのスライドを背景にする事も出来ます。</p>
+<p>PIPの設定にはプレビューがあったほうが便利です。CamTwistのメニューバー → 「View」 → 「Preview」でプレビュー画面が表示されます。</p>
+<p>Step 1でWebcamを選択して、アプリ下部の「PIP」ボタン（PIPとはPicture in Pictureの意味です）を押します。PIPの設定画面でScaleを変更すると倍率が変わります。Scale2でちょうど画面いっぱいになると思います。</p>
+<p>クロマキー合成を使うには、「Chroma Key」にチェックを入れてください。その下で色を選ぶと、選んだ色と同じ色が透過されます。透過されるということは、その下にある画像が透けてみえるということです。下に背景画像があればそれが見えますし、PowerPointのスライドがあればそれが見えます。CamTwistではStep 3で上に配置されている映像ソース・フィルタが最背面になります。背景にしたいものを一番上に配置することになります。</p>
+<figure class="center">
+    <img src="10.png"/> <figcaption>
+            <h4>PIPの設定画面</h4>
+        </figcaption>
+</figure>
+
+<p>クロマキー合成をするといっても光の当たり方や布のシワなどの影響で、全体に綺麗に抜けなかったりするので、色やThresholdを微調整しましょう。また、「Crop Left」などを変更するとwebカメラ映像を切り抜いたり、Positionを変更してwebカメラ映像の配置を変更したり出来ます。</p>
+<p>クロマキー合成で背景を抜いた動画の後ろにパワポのスライドを配置して手書きで文字入力した例です。</p>
+<figure class="center">
+    <img src="11.png" width="500"/> <figcaption>
+            <h4>クロマキー合成で背景を抜いてパワポに手書き入力</h4>
+        </figcaption>
+</figure>
+
+]]></content>
+		</item>
+		
+		<item>
+			<title>会議中に自分のPCの画面を共有</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/cast-your-screen/</link>
+			<pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/cast-your-screen/</guid>
+			<description>自分のPCの画面を共有する Google Meetでは、参加者に自分のPCの画面を共有することができます。デスクトップ全体を共有するか、アプリケーションの</description>
+			<content type="html"><![CDATA[<h2 id="自分のpcの画面を共有する">自分のPCの画面を共有する</h2>
+<p>Google Meetでは、参加者に自分のPCの画面を共有することができます。デスクトップ全体を共有するか、アプリケーションのウィンドウ単位で共有するか選択できます。ミーティング資料のPDFを表示させたり（Acrobat Readerなど）、講義資料を表示させたり（PowerPointなど）できます。</p>
+<p>ミーティング中に右下にある「今すぐ表示」を選択して、「動画を共有する」メニューを表示させます。「あなたの全画面」を選択すると、自分のデスクトップ全体が表示されます。自分のモニターに表示されているものが全て共有されます。見せる必要がないものが見えてしまわないように注意する必要があります。</p>
+<p>「ウィンドウ」を選択すると、自分が共有したいウィンドウをアプリケーション単位で選択することができます。
+<figure class="center">
+    <img src="1.png"/> <figcaption>
+            <h4>「あなたの全画面」か「ウィンドウ」を選択してください</h4>
+        </figcaption>
+</figure>
+</p>
+<p>「ウィンドウ」を選択すると、共有したいアプリケーションを選択する画面が表示されます。WordやPowerPointなどから共有したいアプリケーションを選択してください。
+<figure class="center">
+    <img src="2.png"/> <figcaption>
+            <h4>共有したいアプリケーションの選択</h4>
+        </figcaption>
+</figure>
+</p>
+<p>共有が完了したら、次のような画面が表示されます。共有中のアプリケーション（WordやPowerPointなど）に戻って作業をすれば、その作業が参加者に共有されます。PowerPointの場合、フルスクリーンにすればフルスクリーンにした状態で共有されます。
+<figure class="center">
+    <img src="3.png"/> <figcaption>
+            <h4>共有中</h4>
+        </figcaption>
+</figure>
+</p>
+<p>共有を終了したい場合、Google Meet上で「固定表示を停止」をクリックするか、共有中のアプリケーション（WordやPowerPointなど）上に表示されている「共有を停止」をクリックしてください。</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>webカメラやマイクがブロックされている場合</title>
@@ -124,6 +264,8 @@
         </figcaption>
 </figure>
 </p>
+<h2 id="ロックされてしまった場合">ロックされてしまった場合</h2>
+<p>「セキュリティ通知」メールが届いた時に適切な対応ができなかった場合、何らかの攻撃を受けていると判断された場合などの場合アカウントがロックされてしまいます。ロックされてしまった場合は総合情報センターで状況の確認をした上でロックを解除します。ただ、すぐにロックが解除できるという保証はありませんので、気をつけてください。また、パスワードを変更してもらったりする必要もあります。</p>
 ]]></content>
 		</item>
 		
@@ -273,6 +415,19 @@
 <ul>
 <li>アプリからアカウントを一度消して、再登録してください</li>
 <li><a href="https://www.iscle.com/web-it/douki-error.html">Google同期エラー「現在同期で問題が発生しています」の解決方法</a></li>
+</ul>
+</li>
+<li>「セキュリティ通知」という件名のメールが届いた
+<ul>
+<li>普段使わないデバイスからログインした時などに届きます。</li>
+<li><a href="https://masudakoji.github.io/remotelearning/posts/security-alert-gmail/">「セキュリティ通知」メールが届いた時の対応</a>を参考に対応してください。</li>
+<li>このメールを放置するとアカウントがロックされることがあります。その場合、<a href="https://masudakoji.github.io/remotelearning/posts/security-alert-gmail/#ロックされてしまった場合">ロックされた場合の対応</a>を参考にしてください。</li>
+</ul>
+</li>
+<li>学校からのメールが届きません
+<ul>
+<li>学校からのメールが迷惑メールになっていないか確認してください。</li>
+<li><a href="https://masudakoji.github.io/remotelearning/posts/set-non-spam/">学校からのメールを受け取れるようにする</a>を参考にして迷惑メールにならないようにフィルタを設定してみてください</li>
 </ul>
 </li>
 </ul>
@@ -576,13 +731,7 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
 <h2 id="ミーティング中の操作">ミーティング中の操作</h2>
 <p>ミーティング中の詳細な操作は<a href="https://masudakoji.github.io/remotelearning/posts/join-meeting/">招待されたミーティングに参加する</a>を参考にしてください。</p>
 <h2 id="自分のpcの画面を共有">自分のPCの画面を共有</h2>
-<p>参加者に自分のPCの画面を共有することができます。デスクトップ全体を共有するか、アプリケーションのウィンドウ単位で共有するか選択できます。ミーティング資料のPDFを表示させたり（Acrobat Readerなど）、講義資料を表示させたり（PowerPointなど）できます。</p>
-<figure class="center">
-    <img src="6.png"/> <figcaption>
-            <h4>「あなたの全画面」か「ウィンドウ」を選択してください</h4>
-        </figcaption>
-</figure>
-
+<p>Google Meetでは、自分のデスクトップやアプリケーションのウィンドウを他の参加者に共有することができます。具体的な方法は<a href="https://masudakoji.github.io/remotelearning/posts/cast-your-screen/">自分のPCの画面を共有</a>を参考にしてください。</p>
 ]]></content>
 		</item>
 		

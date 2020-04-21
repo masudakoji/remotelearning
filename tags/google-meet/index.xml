@@ -6,10 +6,28 @@
     <description>Recent content in google meet on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearning/tags/google-meet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google Meetでの画面共有に手書き文字を書く (Mac対象)</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/screen-casting-with-camtwist/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/screen-casting-with-camtwist/</guid>
+      <description>Google Meetでの画面共有 #Google Meetでは自分の画面を共有することができます。デスクトップ全体を共有したり、個別のウインドウを共有したりできます。</description>
+    </item>
+    
+    <item>
+      <title>会議中に自分のPCの画面を共有</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/cast-your-screen/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/cast-your-screen/</guid>
+      <description>自分のPCの画面を共有する Google Meetでは、参加者に自分のPCの画面を共有することができます。デスクトップ全体を共有するか、アプリケーションの</description>
+    </item>
     
     <item>
       <title>webカメラやマイクがブロックされている場合</title>
