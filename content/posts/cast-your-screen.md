@@ -24,3 +24,6 @@ Google Meetでは、参加者に自分のPCの画面を共有することがで�
 {{<figure src="3.png" title="共有中" class="center">}}
 
 共有を終了したい場合、Google Meet上で「固定表示を停止」をクリックするか、共有中のアプリケーション（WordやPowerPointなど）上に表示されている「共有を停止」をクリックしてください。
+
+## 手書きなどの入力
+Google Meetには手書き入力機能などはありませんが、仮想的にカメラとして動作するアプリなどを導入すれば、手書きの文字を重ねることが出来ます。Macの場合は[#CamTwist]({{<ref "../tags/camtwist">}})などがあります。[Google Meetでの画面共有に手書き文字を書く (Mac対象)]({{<ref "screen-casting-with-camtwist.md">}})を参考にして見てください。Windowsの場合も同様のソフトはあるかと思います。
