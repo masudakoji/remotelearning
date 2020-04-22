@@ -9,7 +9,7 @@ tags:
 ---
 
 ## Google Meet使用時の注意
-Google Meetでweb会議をする際にカメラやマイクを使用することになると思いますが、その際、カメラやマイクにアクセス権が付与されている必要があります。
+[#Google Meet]({{<ref "../tags/google-meet/">}})でweb会議をする際にカメラやマイクを使用することになると思いますが、その際、カメラやマイクにアクセス権が付与されている必要があります。
 
 webカメラやマイクの設定に関しては、[webカメラやマイクの確認 (Win編)]({{<ref win-camera-device.md>}})や[webカメラやマイクの確認 (Mac編)]({{<ref mac-camera-device.md>}})を参考にしてください。
 

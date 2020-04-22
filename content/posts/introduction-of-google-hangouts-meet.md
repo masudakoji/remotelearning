@@ -12,7 +12,7 @@ tags:
 Googleが提供するビデオ通話サービスです。以前は「Google Hangouts Meet」という名前でした。学生や教職員のみなさんが持っている神戸高専のGoogleアカウントで利用可能です。個人のGoogleアカウントは使えません。
 
 ## 使用環境（パソコンから使う）
-Google Meetを使うには対応しているブラウザを使う必要があります。対応ブラウザは以下の通りです。
+[#Google Meet]({{<ref "../tags/google-meet/">}})を使うには対応しているブラウザを使う必要があります。対応ブラウザは以下の通りです。
 
 - Chrome ブラウザ
 - Mozilla Firefox

@@ -6,7 +6,7 @@ tags:
   - teacher
 ---
 ## 遠隔授業
-Google Meetを使って、遠隔での授業やディスカッションができるように検討しています。そのための準備や操作法について説明しています。
+[#Google Meet]({{<ref "../tags/google-meet/">}})を使って、遠隔での授業やディスカッションができるように検討しています。そのための準備や操作法について説明しています。
 
 - [Google Meetの導入方法]({{<ref "posts/introduction-of-google-hangouts-meet.md">}})
 - [ミーティングを開始する]({{<ref "posts/start-meeting.md">}})

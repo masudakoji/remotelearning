@@ -9,7 +9,7 @@ tags:
 ---
 
 ## 遠隔ミーティング
-Google Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などは[Google Meetの導入方法]({{<ref "introduction-of-google-hangouts-meet.md">}})を参考にしてください。
+[#Google Meet]({{<ref "../tags/google-meet/">}})が学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などは[Google Meetの導入方法]({{<ref "introduction-of-google-hangouts-meet.md">}})を参考にしてください。
 
 
 ## ミーティングを立ち上げる
