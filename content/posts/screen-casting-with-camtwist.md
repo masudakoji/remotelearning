@@ -81,4 +81,6 @@ Step 1でWebcamを選択して、アプリ下部の「PIP」ボタン（PIPと�
 
 クロマキー合成で背景を抜いた動画の後ろにパワポのスライドを配置して手書きで文字入力した例です。
 
-{{<figure src="11.png" title="クロマキー合成で背景を抜いてパワポに手書き入力" class="center" width="500">}}
+{{<figure src="11.png" title="クロマキー合成で背景を抜いてパワポに手書き入力" class="center" width="450">}}
+
+{{<figure src="12.jpg" title="作業風景" class="center" width="450">}}
