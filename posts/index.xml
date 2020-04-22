@@ -105,8 +105,14 @@
 <p>クロマキー合成をするといっても光の当たり方や布のシワなどの影響で、全体に綺麗に抜けなかったりするので、色やThresholdを微調整しましょう。また、「Crop Left」などを変更するとwebカメラ映像を切り抜いたり、Positionを変更してwebカメラ映像の配置を変更したり出来ます。</p>
 <p>クロマキー合成で背景を抜いた動画の後ろにパワポのスライドを配置して手書きで文字入力した例です。</p>
 <figure class="center">
-    <img src="11.png" width="500"/> <figcaption>
+    <img src="11.png" width="450"/> <figcaption>
             <h4>クロマキー合成で背景を抜いてパワポに手書き入力</h4>
+        </figcaption>
+</figure>
+
+<figure class="center">
+    <img src="12.jpg" width="450"/> <figcaption>
+            <h4>作業風景</h4>
         </figcaption>
 </figure>
 
@@ -119,9 +125,9 @@
 			<pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
 			
 			<guid>https://masudakoji.github.io/remotelearning/posts/cast-your-screen/</guid>
-			<description>自分のPCの画面を共有する Google Meetでは、参加者に自分のPCの画面を共有することができます。デスクトップ全体を共有するか、アプリケーションの</description>
+			<description>自分のPCの画面を共有する #Google Meetでは、参加者に自分のPCの画面を共有することができます。デスクトップ全体を共有するか、アプリケーションの</description>
 			<content type="html"><![CDATA[<h2 id="自分のpcの画面を共有する">自分のPCの画面を共有する</h2>
-<p>Google Meetでは、参加者に自分のPCの画面を共有することができます。デスクトップ全体を共有するか、アプリケーションのウィンドウ単位で共有するか選択できます。ミーティング資料のPDFを表示させたり（Acrobat Readerなど）、講義資料を表示させたり（PowerPointなど）できます。</p>
+<p><a href="https://masudakoji.github.io/remotelearning/tags/google-meet/">#Google Meet</a>では、参加者に自分のPCの画面を共有することができます。デスクトップ全体を共有するか、アプリケーションのウィンドウ単位で共有するか選択できます。ミーティング資料のPDFを表示させたり（Acrobat Readerなど）、講義資料を表示させたり（PowerPointなど）できます。</p>
 <p>ミーティング中に右下にある「今すぐ表示」を選択して、「動画を共有する」メニューを表示させます。「あなたの全画面」を選択すると、自分のデスクトップ全体が表示されます。自分のモニターに表示されているものが全て共有されます。見せる必要がないものが見えてしまわないように注意する必要があります。</p>
 <p>「ウィンドウ」を選択すると、自分が共有したいウィンドウをアプリケーション単位で選択することができます。
 <figure class="center">
@@ -145,6 +151,8 @@
 </figure>
 </p>
 <p>共有を終了したい場合、Google Meet上で「固定表示を停止」をクリックするか、共有中のアプリケーション（WordやPowerPointなど）上に表示されている「共有を停止」をクリックしてください。</p>
+<h2 id="手書きなどの入力">手書きなどの入力</h2>
+<p>Google Meetには手書き入力機能などはありませんが、仮想的にカメラとして動作するアプリなどを導入すれば、手書きの文字を重ねることが出来ます。Macの場合は<a href="https://masudakoji.github.io/remotelearning/tags/camtwist/">#CamTwist</a>などがあります。<a href="https://masudakoji.github.io/remotelearning/posts/screen-casting-with-camtwist/">Google Meetでの画面共有に手書き文字を書く (Mac対象)</a>を参考にして見てください。Windowsの場合も同様のソフトはあるかと思います。</p>
 ]]></content>
 		</item>
 		
@@ -154,9 +162,9 @@
 			<pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
 			
 			<guid>https://masudakoji.github.io/remotelearning/posts/camera-microphone-permission/</guid>
-			<description>Google Meet使用時の注意 Google Meetでweb会議をする際にカメラやマイクを使用することになると思いますが、その際、カメラやマイクにアクセス権が付</description>
+			<description>Google Meet使用時の注意 #Google Meetでweb会議をする際にカメラやマイクを使用することになると思いますが、その際、カメラやマイクにアクセス権が付</description>
 			<content type="html"><![CDATA[<h2 id="google-meet使用時の注意">Google Meet使用時の注意</h2>
-<p>Google Meetでweb会議をする際にカメラやマイクを使用することになると思いますが、その際、カメラやマイクにアクセス権が付与されている必要があります。</p>
+<p><a href="https://masudakoji.github.io/remotelearning/tags/google-meet/">#Google Meet</a>でweb会議をする際にカメラやマイクを使用することになると思いますが、その際、カメラやマイクにアクセス権が付与されている必要があります。</p>
 <p>webカメラやマイクの設定に関しては、<a href="https://masudakoji.github.io/remotelearning/posts/win-camera-device/">webカメラやマイクの確認 (Win編)</a>や<a href="https://masudakoji.github.io/remotelearning/posts/mac-camera-device/">webカメラやマイクの確認 (Mac編)</a>を参考にしてください。</p>
 <h2 id="ブラウザ上でブロックされた場合">ブラウザ上でブロックされた場合</h2>
 <p>パソコン上でカメラやマイクが接続されていても、ブラウザ（ChromeやFirefox）上でブロックされている場合があります。最初にGoogle Meetを立ち上げた時にうっかり「アクセスを拒否」を選択してしまった場合などにおきます。</p>
@@ -186,7 +194,7 @@
 			<guid>https://masudakoji.github.io/remotelearning/posts/set-non-spam/</guid>
 			<description>学校からの連絡を受け取れるようにする 学校からの連絡や、授業担当の先生からの連絡は神戸高専のメールアドレスか、神戸高専が契約しているGoogl</description>
 			<content type="html"><![CDATA[<h2 id="学校からの連絡を受け取れるようにする">学校からの連絡を受け取れるようにする</h2>
-<p>学校からの連絡や、授業担当の先生からの連絡は神戸高専のメールアドレスか、神戸高専が契約しているGoogleのメールサービス（Gmail)から送られます。
+<p>学校からの連絡や、授業担当の先生からの連絡は神戸高専のメールアドレスか、神戸高専が契約しているGoogleのメールサービス（<a href="https://masudakoji.github.io/remotelearning/tags/gmail/">#Gmail</a>)から送られます。
 皆さんのGmailでこれらのメールが迷惑メールとして認識されてしまうと、大切なメールが届かなくなってしまいます。
 そのため、これらのメールがブロックされないように設定する方法を説明します。</p>
 <h2 id="pcのブラウザで作業する">PCのブラウザで作業する</h2>
@@ -238,9 +246,9 @@
 			<pubDate>Fri, 10 Apr 2020 15:17:07 +0900</pubDate>
 			
 			<guid>https://masudakoji.github.io/remotelearning/posts/security-alert-gmail/</guid>
-			<description>他のデバイスでログインした時 普段はスマホのアプリでGmailを見ているかと思いますが、学校のPCやその他のデバイスなど、普段使っていないデバ</description>
+			<description>他のデバイスでログインした時 普段はスマホのアプリで#Gmailを見ているかと思いますが、学校のPCやその他のデバイスなど、普段使っていないデ</description>
 			<content type="html"><![CDATA[<h2 id="他のデバイスでログインした時">他のデバイスでログインした時</h2>
-<p>普段はスマホのアプリでGmailを見ているかと思いますが、学校のPCやその他のデバイスなど、普段使っていないデバイスでログインした際にはGoogleから「セキュリティ通知」という件名のメールが届くことがあります。</p>
+<p>普段はスマホのアプリで<a href="https://masudakoji.github.io/remotelearning/tags/gmail/">#Gmail</a>を見ているかと思いますが、学校のPCやその他のデバイスなど、普段使っていないデバイスでログインした際にはGoogleから「セキュリティ通知」という件名のメールが届くことがあります。</p>
 <p>このメールを無視したままにしてしまうと、アカウントがロックされてしまいメールが送受信できなくなる可能性があります。忘れずに「アクティビティを確認」するようにしてください。</p>
 <h2 id="アクティビティを確認する方法">アクティビティを確認する方法</h2>
 <p>メールの「アクティビティを確認」をクリックして、確認画面に進んでください。その際パスワードを入力する必要があれば入力してください。
@@ -279,7 +287,7 @@
 			<content type="html"><![CDATA[<h2 id="googleのパスワード">Googleのパスワード</h2>
 <p>学校から配布されたパスワードは仮のパスワードですので、各自で覚えやすいパスワードの変更するなどの対応をよろしくお願いします。
 変更されたパスワードは自分自身しかわかりませんので、忘れないようにしてください。</p>
-<p>このパスワードはGmailだけではなく他のGoogleのサービスとも共通のパスワードです。</p>
+<p>このパスワードは<a href="https://masudakoji.github.io/remotelearning/tags/gmail/">#Gmail</a>だけではなく他のGoogleのサービスとも共通のパスワードです。</p>
 <h2 id="パスワードの変更">パスワードの変更</h2>
 <p>まずはGmailアプリを起動してください。
 <figure class="center">
@@ -332,9 +340,9 @@
 			<pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
 			
 			<guid>https://masudakoji.github.io/remotelearning/posts/sendmail-gmail/</guid>
-			<description>Gmailアプリのインストール Gmailアプリのインストールが出来ていない人はインストール方法を参考にしてインストールしてください。 Gmai</description>
+			<description>Gmailアプリのインストール #Gmailアプリのインストールが出来ていない人はインストール方法を参考にしてインストールしてください。 Gma</description>
 			<content type="html"><![CDATA[<h2 id="gmailアプリのインストール">Gmailアプリのインストール</h2>
-<p>Gmailアプリのインストールが出来ていない人は<a href="https://masudakoji.github.io/remotelearning/posts/setup-gmail/">インストール方法</a>を参考にしてインストールしてください。</p>
+<p><a href="https://masudakoji.github.io/remotelearning/tags/gmail/">#Gmail</a>アプリのインストールが出来ていない人は<a href="https://masudakoji.github.io/remotelearning/posts/setup-gmail/">インストール方法</a>を参考にしてインストールしてください。</p>
 <h2 id="gmailアプリからメールを送るios">Gmailアプリからメールを送る(iOS)</h2>
 <figure class="center">
     <img src="1.png" width="250"/> <figcaption>
@@ -369,9 +377,9 @@
 			<pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
 			
 			<guid>https://masudakoji.github.io/remotelearning/posts/gmail-faq/</guid>
-			<description>よくある質問 Gmailを使う際によくある質問をまとめました。他のページなども参考にしてみてください。 Googleのメールアドレスがわかりませ</description>
+			<description>よくある質問 #Gmailを使う際によくある質問をまとめました。他のページなども参考にしてみてください。 Googleのメールアドレスがわかりま</description>
 			<content type="html"><![CDATA[<h2 id="よくある質問">よくある質問</h2>
-<p>Gmailを使う際によくある質問をまとめました。他のページなども参考にしてみてください。</p>
+<p><a href="https://masudakoji.github.io/remotelearning/tags/gmail/">#Gmail</a>を使う際によくある質問をまとめました。他のページなども参考にしてみてください。</p>
 <ul>
 <li>Googleのメールアドレスがわかりません
 <ul>
@@ -468,7 +476,7 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
 </figure>
 
 <h2 id="ブラウザから外付けカメラマイク等へのアクセスを許可する">ブラウザから外付けカメラ・マイク等へのアクセスを許可する</h2>
-<p>ブラウザからGoogle Meetを立ち上げる時にはアクセスを許可するか聞かれると思いますので、その時に「承認」してください。間違って、「許可しない」を選択してしまい、修正できない場合は別途アクセスを許可してください。</p>
+<p>ブラウザから<a href="https://masudakoji.github.io/remotelearning/tags/google-meet/">#Google Meet</a>を立ち上げる時にはアクセスを許可するか聞かれると思いますので、その時に「承認」してください。間違って、「許可しない」を選択してしまい、修正できない場合は別途アクセスを許可してください。</p>
 <p>デスクトップ左上のマーク → システム環境設定 → セキュリティとプライバシー → プライバシー → カメラ</p>
 <p>のように移動して、ブラウザChromeにアクセス権を与えてください。</p>
 <figure class="center">
@@ -535,7 +543,7 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
 			<guid>https://masudakoji.github.io/remotelearning/posts/setup-gmail/</guid>
 			<description>Gmailについて 神戸高専ではGoogle社が提供する様々なサービスが使えるよう契約を結んでいます。担任や教科担当からの案内メールは、Goo</description>
 			<content type="html"><![CDATA[<h2 id="gmailについて">Gmailについて</h2>
-<p>神戸高専ではGoogle社が提供する様々なサービスが使えるよう契約を結んでいます。担任や教科担当からの案内メールは、Googleのメールサービス（Gmail）を用いています。各自のスマートフォンや家のPCなどで毎日確認するようにしてください。</p>
+<p>神戸高専ではGoogle社が提供する様々なサービスが使えるよう契約を結んでいます。担任や教科担当からの案内メールは、Googleのメールサービス（<a href="https://masudakoji.github.io/remotelearning/tags/gmail/">#Gmail</a>）を用いています。各自のスマートフォンや家のPCなどで毎日確認するようにしてください。</p>
 <h2 id="神戸高専で受け取るメールアドレス">神戸高専で受け取るメールアドレス</h2>
 <p><strong>r&lt;学籍番号&gt;@g.kobe-kosen.ac.jp</strong><br>
 がみなさんが使えるメールアドレスです。学籍番号が123456の人はr123456@g.kobe-kosen.ac.jpになります。ハイフンやピリオドなど間違えないように注意しましょう。</p>
@@ -586,9 +594,9 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
 			<pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
 			
 			<guid>https://masudakoji.github.io/remotelearning/posts/join-meeting/</guid>
-			<description>遠隔ミーティング Google Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などはGoogle Meetの導入方法を</description>
+			<description>遠隔ミーティング #Google Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などはGoogle Meetの導入方法を</description>
 			<content type="html"><![CDATA[<h2 id="遠隔ミーティング">遠隔ミーティング</h2>
-<p>Google Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などは<a href="https://masudakoji.github.io/remotelearning/posts/introduction-of-google-hangouts-meet/">Google Meetの導入方法</a>を参考にしてください。</p>
+<p><a href="https://masudakoji.github.io/remotelearning/tags/google-meet/">#Google Meet</a>が学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などは<a href="https://masudakoji.github.io/remotelearning/posts/introduction-of-google-hangouts-meet/">Google Meetの導入方法</a>を参考にしてください。</p>
 <h2 id="ミーティングに参加する">ミーティングに参加する</h2>
 <p>自分でミーティングを立ち上げて、他の人を招待する場合について説明します。
 招待されたミーティングに参加する方法は<a href="https://masudakoji.github.io/remotelearning/posts/start-meeting/">ミーティングを始める</a>を参考にしてください。</p>
@@ -688,9 +696,9 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
 			<pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
 			
 			<guid>https://masudakoji.github.io/remotelearning/posts/start-meeting/</guid>
-			<description>遠隔ミーティング Google Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などはGoogle Meetの導入方法を</description>
+			<description>遠隔ミーティング #Google Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などはGoogle Meetの導入方法を</description>
 			<content type="html"><![CDATA[<h2 id="遠隔ミーティング">遠隔ミーティング</h2>
-<p>Google Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などは<a href="https://masudakoji.github.io/remotelearning/posts/introduction-of-google-hangouts-meet/">Google Meetの導入方法</a>を参考にしてください。</p>
+<p><a href="https://masudakoji.github.io/remotelearning/tags/google-meet/">#Google Meet</a>が学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などは<a href="https://masudakoji.github.io/remotelearning/posts/introduction-of-google-hangouts-meet/">Google Meetの導入方法</a>を参考にしてください。</p>
 <h2 id="ミーティングを立ち上げる">ミーティングを立ち上げる</h2>
 <p>自分でミーティングを立ち上げて、他の人を招待する場合について説明します。
 招待されたミーティングに参加する方法は<a href="https://masudakoji.github.io/remotelearning/posts/join-meeting/">招待されたミーティングに参加する</a>を参考にしてください。</p>
@@ -745,7 +753,7 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
 			<content type="html"><![CDATA[<h2 id="google-meethttpsmeetgooglecomとは"><a href="https://meet.google.com">Google Meet</a>とは</h2>
 <p>Googleが提供するビデオ通話サービスです。以前は「Google Hangouts Meet」という名前でした。学生や教職員のみなさんが持っている神戸高専のGoogleアカウントで利用可能です。個人のGoogleアカウントは使えません。</p>
 <h2 id="使用環境パソコンから使う">使用環境（パソコンから使う）</h2>
-<p>Google Meetを使うには対応しているブラウザを使う必要があります。対応ブラウザは以下の通りです。</p>
+<p><a href="https://masudakoji.github.io/remotelearning/tags/google-meet/">#Google Meet</a>を使うには対応しているブラウザを使う必要があります。対応ブラウザは以下の通りです。</p>
 <ul>
 <li>Chrome ブラウザ</li>
 <li>Mozilla Firefox</li>
