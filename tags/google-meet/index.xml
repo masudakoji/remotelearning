@@ -6,10 +6,19 @@
     <description>Recent content in google meet on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearning/tags/google-meet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google Classroomに参加する</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/start-classroom/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/start-classroom/</guid>
+      <description>対面授業が実施困難な時間中は、Google Classroomを使って担任からの連絡や教科担当者とのやりとりを行います。 担任の先生とGoogl</description>
+    </item>
     
     <item>
       <title>Google Drive経由で動画やファイルを配信する</title>

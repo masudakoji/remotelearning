@@ -6,17 +6,44 @@
     <description>Recent content in Tags on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearning/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>google chrome</title>
+      <link>https://masudakoji.github.io/remotelearning/tags/google-chrome/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/tags/google-chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>google classroom</title>
       <link>https://masudakoji.github.io/remotelearning/tags/google-classroom/</link>
-      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://masudakoji.github.io/remotelearning/tags/google-classroom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google meet</title>
+      <link>https://masudakoji.github.io/remotelearning/tags/google-meet/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/tags/google-meet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>student</title>
+      <link>https://masudakoji.github.io/remotelearning/tags/student/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/tags/student/</guid>
       <description></description>
     </item>
     
@@ -57,15 +84,6 @@
     </item>
     
     <item>
-      <title>google meet</title>
-      <link>https://masudakoji.github.io/remotelearning/tags/google-meet/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/tags/google-meet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>camtwist</title>
       <link>https://masudakoji.github.io/remotelearning/tags/camtwist/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
@@ -80,24 +98,6 @@
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://masudakoji.github.io/remotelearning/tags/mac/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gmail</title>
-      <link>https://masudakoji.github.io/remotelearning/tags/gmail/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/tags/gmail/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>student</title>
-      <link>https://masudakoji.github.io/remotelearning/tags/student/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/tags/student/</guid>
       <description></description>
     </item>
     

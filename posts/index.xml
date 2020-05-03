@@ -5,8 +5,80 @@
 		<description>Recent content in Posts on 遠隔授業 補助資料</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>ja</language>
-		<lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://masudakoji.github.io/remotelearning/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Google Classroomに参加する</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/start-classroom/</link>
+			<pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/start-classroom/</guid>
+			<description>対面授業が実施困難な時間中は、Google Classroomを使って担任からの連絡や教科担当者とのやりとりを行います。 担任の先生とGoogl</description>
+			<content type="html"><![CDATA[<p>対面授業が実施困難な時間中は、Google Classroomを使って担任からの連絡や教科担当者とのやりとりを行います。
+担任の先生とGoogle Meetで面談することもありますし、授業では、シラバスや課題の配布に使うこともあります。準備をしておいてください。</p>
+<p>スマホアプリを持っていない人は
+<a href="#アプリのインストール">アプリのインストール</a>
+からインストールしてください。</p>
+<p>パソコンを使ってうまくいかない人は
+<a href="#google-chromeのインストール">Google Chromeのインストール</a>
+からGoogle Chromeをインストールしてください。</p>
+<h2 id="classroomに参加">Classroomに参加</h2>
+<p>招待メールから参加する方法と、クラスコードから参加する方法があります。どちらでも同じようにClassroomに参加することができます。</p>
+<h4 id="招待メールから参加する">招待メールから参加する</h4>
+<p>担任の先生や教科担当の先生から、以下のような招待メールが来れば「参加」ボタンを押してください。それで参加が完了します。
+<figure class="center">
+    <img src="1.png" width="350"/> 
+</figure>
+</p>
+<h4 id="クラスコードから参加する">クラスコードから参加する</h4>
+<p>「クラスコード」と呼ばれる数文字の英数字を知っていれば、「クラスコード」を使って参加することもできます。
+担任の先生からの連絡に使うClassroomなどは「クラスコード」の連絡を受けているかもしれません。
+PCで<a href="https://classroom.google.com/">Google Classroom</a>にアクセスするか、スマホでGoogle Classroomアプリを立ち上げてください。</p>
+<p>PCではGoogle Classroomを開いて「＋」ボタンをクリックしてください。「クラスに参加」を選択するとクラスコードを入力する画面になりますので、先生から聞いたクラスコードを入力してください。
+<figure class="center">
+    <img src="2.png" width="500"/> 
+</figure>
+</p>
+<p>スマホではGoogle Classroomアプリを開いて右下にある「＋」ボタンをタップしてください。「クラスに参加」を選択するとクラスコードを入力する画面になりますので、先生から聞いたクラスコードを入力してください。
+<figure class="center">
+    <img src="3.png" width="350"/> 
+</figure>
+</p>
+<h2 id="アプリのインストール">アプリのインストール</h2>
+<h4 id="パソコン">パソコン</h4>
+<p>パソコンではアプリをインストール必要はありません。<a href="https://classroom.google.com/">Google Classroom</a>にアクセスしてください。
+Googleアカウントが聞かれたら、神戸高専のGoogleアカウントでログインしてください。個人で持っているGoogleアカウントでログインしないように気をつけてください。</p>
+<h4 id="iosiphone-ipad">iOS(iPhone, iPad)</h4>
+<p>iOSを使っている人は以下のリンクから入手してください。
+App Storeで「Google Classroom」で検索しても見つかると思います。</p>
+<p><a href="https://apps.apple.com/jp/app/hangouts-meet-by-google/id924620788?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2017-02-27&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:45px;"></a></p>
+<h4 id="android">Android</h4>
+<p>Androidを使っている人は以下のリンクから入手してください。
+Google Play Storeで「Google Classroom」で検索しても見つかると思います。</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.classroom&hl=ja&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" style="display:inline-block;overflow:hidden;background:url(https://play.google.com/intl/us-en/badges/static/images/badges/ja_badge_web_generic.png) no-repeat;width:150px;height:55px;background-size: cover;"></a></p>
+<h2 id="パソコンの準備">パソコンの準備</h2>
+<p>スマホでもGoogle ClassroomやGoogle Meetは利用できますが、スマホの小さい画面だと資料も見辛いですし、長時間Meetに接続しているとバッテリーの消費が大きいですので、可能であればパソコンを準備していただけると、より快適に授業が受講できます。
+新着情報の確認にはスマホが便利かと思いますが、Meetでの受講の際には<strong>できるだけ大きな画面のパソコン</strong>を用意して受講していただければと思います。</p>
+<p>多くの人はインターネットをする時にInternet Explorerを使っているかと思います。Internet Explorerのようなアプリを「ブラウザ」といいますが、Google MeetはInternet Explorerではうまく動作しない事があるようです。Google Classroomを開発しているGoogle社が開発している「Google Chrome」というブラウザ（Androidスマホを持っている人はお馴染みですね）だと、不具合が少ないようですので、「Google Chrome」をインストールしてみてください。</p>
+<h4 id="google-chromeのインストール">Google Chromeのインストール</h4>
+<ol>
+<li><a href="https://www.google.com/intl/ja_jp/chrome/">Google Chromeのインストール</a>にアクセスして「Chromeをダウンロード」をクリックしてください。
+<figure class="center">
+    <img src="4.png" width="500"/> 
+</figure>
+</li>
+<li>ダウンロードするか確認されたら「実行」または「保存」をクリックしてください。</li>
+<li>2で「保存」を選択した場合、「ダウンロード」フォルダにインストールするためのファイルが保存されていますので、それをダブルクリックしてください。</li>
+<li>インストールが終わったらGoogle Chromeを起動してください。</li>
+</ol>
+<ul>
+<li>(Windows 7の場合) インストールが無事に終了すれば、Google Chromeが開きます</li>
+<li>(Windows 8の場合) 「ようこそ」という画面が立ち上がれば、「次へ」をクリックしてGoogle Chromeを選択してください</li>
+<li>(Windows 10の場合) インストールが無事に終了すれば、Google Chromeが開きます</li>
+</ul>
+]]></content>
+		</item>
 		
 		<item>
 			<title>YouTubeでのライブ配信時の遅延について</title>
@@ -1058,7 +1130,7 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
 <p>iOS, Androidともに、アプリをインストールする必要があります。</p>
 <h3 id="iosiphone-ipad">iOS(iPhone, iPad)</h3>
 <p>iOSを使っている人は以下のリンクから入手してください。</p>
-<p><a href="https://apps.apple.com/us/app/hangouts-meet-by-google/id1013231476?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2017-02-27&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:45px;"></a></p>
+<p><a href="https://apps.apple.com/jp/app/hangouts-meet-by-google/id1013231476?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2017-02-27&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:45px;"></a></p>
 <p>iOSのApp Storeで「Hangouts Meet by Google」で検索しても見つかると思います。なお、iOSのバージョンは11.0以上である必要があります。（11.0より新しいバージョンならOKです。iPhone 8より新しい機種であれば最初からiOS11以降がインストールされています。なお、2013年発売のiPhone 5s以降でしたら対応しているiOSにアップデートできます。）</p>
 <h3 id="android">Android</h3>
 <p>Androidを使っている人は以下のリンクから入手してください。</p>

@@ -6,10 +6,19 @@
     <description>Recent content in student on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearning/tags/student/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google Classroomに参加する</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/start-classroom/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/start-classroom/</guid>
+      <description>対面授業が実施困難な時間中は、Google Classroomを使って担任からの連絡や教科担当者とのやりとりを行います。 担任の先生とGoogl</description>
+    </item>
     
     <item>
       <title>webカメラやマイクがブロックされている場合</title>
@@ -90,15 +99,6 @@
       
       <guid>https://masudakoji.github.io/remotelearning/posts/setup-gmail/</guid>
       <description>Gmailについて 神戸高専ではGoogle社が提供する様々なサービスが使えるよう契約を結んでいます。担任や教科担当からの案内メールは、Goo</description>
-    </item>
-    
-    <item>
-      <title>招待されたミーティングに参加する</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/join-meeting/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/posts/join-meeting/</guid>
-      <description>遠隔ミーティング #Google Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などはGoogle Meetの導入方法を</description>
     </item>
     
   </channel>
