@@ -5,8 +5,301 @@
 		<description>Recent content in Posts on 遠隔授業 補助資料</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>ja</language>
-		<lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://masudakoji.github.io/remotelearning/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>YouTubeでのライブ配信時の遅延について</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/live-streaming-latency-on-youtube/</link>
+			<pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/live-streaming-latency-on-youtube/</guid>
+			<description>ライブ配信時の遅延設定 YouTubeでライブ配信する際には遅延が発生します。遅延が発生すること自体は避けられないですが、設定によって遅延を少</description>
+			<content type="html"><![CDATA[<h2 id="ライブ配信時の遅延設定">ライブ配信時の遅延設定</h2>
+<p>YouTubeでライブ配信する際には遅延が発生します。遅延が発生すること自体は避けられないですが、設定によって遅延を少なくすることはできます。しかし、遅延を少なくすると、視聴者の側で再生が止まってしまったりしますので、様子を見つつ設定する必要があります。</p>
+<h2 id="モードによる遅延の違い">モードによる遅延の違い</h2>
+<p>遅延の設定は次の3つがあります。</p>
+<ul>
+<li>通常の遅延</li>
+<li>低遅延</li>
+<li>超低遅延</li>
+</ul>
+<p>webアプリでストップウォッチを再生し、その様子をキャプチャーしてライブ配信した際の結果を示します。</p>
+<p><figure class="center">
+    <img src="mode1.png"/> <figcaption>
+            <h4>「通常の遅延」モード</h4>
+        </figcaption>
+</figure>
+
+<figure class="center">
+    <img src="mode2.png"/> <figcaption>
+            <h4>「低遅延」モード</h4>
+        </figcaption>
+</figure>
+
+<figure class="center">
+    <img src="mode3.png"/> <figcaption>
+            <h4>「超低遅延」モード</h4>
+        </figcaption>
+</figure>
+</p>
+<p>通常の遅延モードだと配信元のウィンドウ（ストップウォッチ）とそれを一旦キャプチャーする配信ソフト（OBS）の間はほぼ遅延はありませんでした。ただ、YouTube配信で10秒ほどの遅延がありました。ライブ配信の際にチャットなどで投稿されたレスポンスと、会話のように配信するのは厳しいものかと思います。</p>
+<p>YouTube Studioでもプレビューのように確認はできますが、こちらもYouTube側の画面と同様に遅延があります。YouTube本体よりもわずかに遅れることが多いようです。</p>
+<p>今回の結果はあくまでも、ある一回の検証の結果ですので、その時々によって結構変化はします。「通常の遅延」モードより「低遅延」モードの方が遅延が大きな結果となったこともありましたので、参考程度に。ただ、「超低遅延」モードだと、確かに遅延は数秒程度に抑えられているようでした。</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>YouTubeで動画を共有する（Webカメラでライブ配信）</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/</link>
+			<pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/</guid>
+			<description>YouTubeでライブ配信 YouTubeはすでにある動画をアップロードするだけではなく、ライブ配信（リアルタイム配信）も可能です。 すでに録画</description>
+			<content type="html"><![CDATA[<h2 id="youtubeでライブ配信">YouTubeでライブ配信</h2>
+<p>YouTubeはすでにある動画をアップロードするだけではなく、ライブ配信（リアルタイム配信）も可能です。</p>
+<blockquote>
+<p>すでに録画した動画をYouTube経由で配信したい場合、<a href="https://masudakoji.github.io/remotelearning/posts/share-videos-on-youtube/">YouTubeで動画を共有する（動画アップロード）</a>を参考にしてください。</p>
+</blockquote>
+<p>ライブ配信自体はGoogle Meetでも可能ですが、YouTubeを使うと、受講者（学生）側で画質を細かく設定（Google Meetよりも低画質に設定できる）できたり、DVR（追っかけ再生）ができるなどのメリットがあります。</p>
+<h2 id="配信に向けて">配信に向けて</h2>
+<h4 id="配信の方法">配信の方法</h4>
+<p>配信には、webカメラを使って配信することもできますし、配信ソフト（OBSなど）を使って配信することも出来ます。様々なシーンを切り替えて配信するなど高機能な配信をしたい場合は、配信ソフトを使うと良いです。今回はウェブカメラを使った配信方法について説明します。</p>
+<h4 id="ライブ配信を行うために必要な端末">ライブ配信を行うために必要な端末</h4>
+<p>今回はPCの内蔵webカメラを使った方法ですが、カメラ付きのスマホでも同様にライブ配信は可能です。スマホを使って配信する場合、インカメラ（自撮り用カメラ）だと画質が十分でないことも多く、板書などが見にくくなる可能性がありますので注意してください。</p>
+<h4 id="アカウントの確認">アカウントの確認</h4>
+<p>ライブ配信を行う前にアカウントの確認を求められる場合があります。自身の携帯電話・スマホなどで確認コードを受け取ってそれを入力します。</p>
+<p><figure class="center">
+    <img src="1.png" width="450"/> 
+</figure>
+
+<figure class="center">
+    <img src="2.png" width="450"/> 
+</figure>
+
+<figure class="center">
+    <img src="3.png" width="450"/> 
+</figure>
+</p>
+<h2 id="配信を開始する">配信を開始する</h2>
+<h4 id="webカメラを使って配信">webカメラを使って配信</h4>
+<p><a href="https://studio.youtube.com/">https://studio.youtube.com/</a>
+にアクセスします。ライブ配信ボタンを押すとライブ配信管理画面が出ますので、「ウェブカメラ」を選択して下さい。
+<figure class="center">
+    <img src="4.png"/> <figcaption>
+            <h4>YouTube Studio</h4>
+        </figcaption>
+</figure>
+</p>
+<p>タイトルを入力し、公開方法を選択します。
+また、スケジュール設定しておくと、ライブ配信の場所だけ確保することが出来ます。
+スケジュール設定していても、自動で配信は始まらないので手動で配信を開始する必要があります。</p>
+<figure class="center">
+    <img src="5.png"/> <figcaption>
+            <h4>タイトルを設定</h4>
+        </figcaption>
+</figure>
+
+<p>YouTubeに動画をアップロードする際と同様に、
+対象視聴者を設定します。対象視聴者や年齢制限などが適切に入力されていないと、環境によって動画が見れなくなる可能性もありますので、注意してください。</p>
+<p>以下のように設定します。</p>
+<ul>
+<li>この動画は子供向けですか？「いいえ、子供向けではありません」</li>
+<li>動画を星人の視聴者のみに制限しますか？「いいえ、18歳以上のみの視聴者に制限しません」</li>
+</ul>
+<figure class="center">
+    <img src="6.png"/> <figcaption>
+            <h4>視聴者の制限</h4>
+        </figcaption>
+</figure>
+
+<p>使用するカメラとマイクを選択します。
+<figure class="center">
+    <img src="7.png"/> <figcaption>
+            <h4>使用機材の設定</h4>
+        </figcaption>
+</figure>
+</p>
+<p>Webカメラ配信の場合はサムネイル用の写真が撮影されます。あとで別の画像をアップロードすることもできます。
+<figure class="center">
+    <img src="8.png"/> <figcaption>
+            <h4>サムネイルの撮影</h4>
+        </figcaption>
+</figure>
+</p>
+<p>準備が完了しました。「ライブ配信を開始」を押すとライブ配信がスタートします。
+<figure class="center">
+    <img src="9.png"/> <figcaption>
+            <h4>ライブ配信準備完了</h4>
+        </figcaption>
+</figure>
+</p>
+<p>共有ボタンを押すと、ライブ配信のアドレスが表示されますので、コピーして共有して下さい。
+<figure class="center">
+    <img src="10.png"/> <figcaption>
+            <h4>配信アドレスの共有</h4>
+        </figcaption>
+</figure>
+</p>
+<p>Webカメラを使って配信する場合は以上です。しかし、これではWebカメラに映っているものしか配信できない（スライドなどが配信できない）ので、その場合はOBSなどのソフトを使う必要があります。</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>YouTubeで動画を共有する（動画アップロード）</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/share-videos-on-youtube/</link>
+			<pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/share-videos-on-youtube/</guid>
+			<description>YouTubeで動画をアップロードする 動画を公開・共有する方法の一つとして、Google Drive経由で共有するといった方法がありますが、動</description>
+			<content type="html"><![CDATA[<h2 id="youtubeで動画をアップロードする">YouTubeで動画をアップロードする</h2>
+<p>動画を公開・共有する方法の一つとして、<a href="https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/">Google Drive経由で共有する</a>といった方法がありますが、動画のようにファイルサイズが大きいデータを共有すると、受信した学生のデータ使用量が膨れ上がるデメリットがあります。YouTubeですと、動画をアップロードすると、画質を下げた動画も自動で生成されます。視聴する学生側で最適な画質を選択することが出来ます。</p>
+<h2 id="動画ファイルの作成のための準備">動画ファイルの作成のための準備</h2>
+<h4 id="動画の作成方法">動画の作成方法</h4>
+<p>Google Meetなどを使えば講義動画を作成することが出来ます。録画したファイルはGoogle Driveに保存されますので、一度PCにダウンロードしてからYouTubeにアップロードしてください</p>
+<blockquote>
+<p>Google Meetで動画ファイルを作成する場合、<a href="https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/#google-meetで録画した動画を共有する">Google Meetで録画した動画を共有する</a>を参考にしてください。</p>
+</blockquote>
+<h4 id="画質設定">画質設定</h4>
+<p>YouTubeは画質を下げた動画も自動で生成してくれますが、画質が低い動画の場合動画中の文字が見にくくなるおそれがあります。文字サイズは大きめにするなど、ご配慮をお願いします。</p>
+<h2 id="動画のアップロード">動画のアップロード</h2>
+<h4 id="アカウントについて">アカウントについて</h4>
+<p>神戸高専から配布されたGoogleアカウントで配信することが出来ます。現在どのアカウントでログインしているか確認した上で、次の作業を行ってください。</p>
+<h4 id="youtubeにアップロード">YouTubeにアップロード</h4>
+<p>YouTubeでの動画アップロードやアップロード済み動画の設定変更はYouTube Studioで行います。
+<a href="https://studio.youtube.com/">https://studio.youtube.com/</a>
+にアクセスしてください。</p>
+<p>YouTubeスタジオのダッシュボードが表示されますので、「動画をアップロード」ボタンを選択してください。
+<figure class="center">
+    <img src="1.png"/> <figcaption>
+            <h4>YouTube Studioにログイン</h4>
+        </figcaption>
+</figure>
+</p>
+<p>PC上にあるファイルを選択してください。エクスプローラーから選択することも出来ますし、ファイルをドラッグ&amp;ドロップしても構いません。
+アップロードにかかる時間は動画の画質や長さにもよります。</p>
+<figure class="center">
+    <img src="2.png"/> <figcaption>
+            <h4>PC上の動画ファイルを選択して、アップロードする</h4>
+        </figcaption>
+</figure>
+
+<h4 id="動画の設定">動画の設定</h4>
+<p>アップロードが完了したら、動画の情報を設定する画面に移動します。動画のタイトルや動画の説明について入力してください。</p>
+<figure class="center">
+    <img src="3.png"/> <figcaption>
+            <h4>動画タイトルや説明を入力</h4>
+        </figcaption>
+</figure>
+
+<p>対象視聴者を設定します。対象視聴者や年齢制限などが適切に入力されていないと、環境によって動画が見れなくなる可能性もありますので、注意してください。</p>
+<p>以下のように設定します。</p>
+<ul>
+<li>この動画は子供向けですか？「いいえ、子供向けではありません」</li>
+<li>動画を星人の視聴者のみに制限しますか？「いいえ、18歳以上のみの視聴者に制限しません」</li>
+</ul>
+<figure class="center">
+    <img src="4.png"/> <figcaption>
+            <h4>対象視聴者を設定する</h4>
+        </figcaption>
+</figure>
+
+<h4 id="公開範囲の設定">公開範囲の設定</h4>
+<p>次に公開範囲の設定を行います。「公開」「限定公開」「非公開」の3種類があります。用途に応じて設定してください。</p>
+<ul>
+<li>「公開」：誰でも視聴可能</li>
+<li>「限定公開」：動画のリンクを知っていれば誰でも視聴可能</li>
+<li>「非公開」：自分のみ視聴可能</li>
+</ul>
+<blockquote>
+<p>公開範囲について細かな設定の方法などは、<a href="https://support.google.com/youtube/answer/157177">[Google] 動画のプライバシー設定を変更する</a>を参照してください。</p>
+</blockquote>
+<figure class="center">
+    <img src="5.png"/> <figcaption>
+            <h4>どのように公開するか設定</h4>
+        </figcaption>
+</figure>
+
+<p>非公開の動画は自分以外からは次のように表示されます。</p>
+<figure class="center">
+    <img src="6.png"/> <figcaption>
+            <h4>非公開動画の場合どのように見えるか</h4>
+        </figcaption>
+</figure>
+
+<h2 id="ライブ配信を行う">ライブ配信を行う</h2>
+<p>今回の解説はすでに録画した動画をYouTubeにアップロードするという内容でしたが、YouTube経由でライブ配信を行う場合は<a href="https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/">YouTubeで動画を共有する（ライブ配信）</a>を参考にしてください。</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Google Drive経由で動画やファイルを配信する</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/</link>
+			<pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/</guid>
+			<description>Google Driveに動画をアップロードする すでに自分で録画していた動画などをGoogle Driveにアップロードする場合ですが、 Google Drive (https://drive.google.com/) にアクセスす</description>
+			<content type="html"><![CDATA[<h2 id="google-driveに動画をアップロードする">Google Driveに動画をアップロードする</h2>
+<p>すでに自分で録画していた動画などをGoogle Driveにアップロードする場合ですが、
+<a href="https://drive.google.com/">Google Drive (https://drive.google.com/) </a>にアクセスすると、
+自分のドライブの内容が表示されます。
+左の方にある「新規」ボタンを押して「ファイルのアップロード」を押せば、PC上の中からアップロードしたいファイルを選択できます。Google Drive上の別のフォルダにアップロードしたい場合は、先にアップロードしたいフォルダに移動しておいてください。</p>
+<p>また、アップロードしたいフォルダに移動した後、そのフォルダにドラッグ&amp;ドロップしても同様にアップロードできます。</p>
+<h2 id="google-meetで録画した動画を共有する">Google Meetで録画した動画を共有する</h2>
+<p>Google Meetには録画機能があります。複数人での会議を録画するのにも使えますが、会議を作成して一人で入れば、授業動画の録画もできますし、PowerPointなどの画面を共有すれば、スライドを見せながらナレーション的に声を入れるといった授業も録画できます。</p>
+<blockquote>
+<p>自分のウィンドウを固定表示させる方法は
+<a href="https://masudakoji.github.io/remotelearning/posts/cast-your-screen/">会議中に自分のPCの画面を共有</a>
+を参照してください。</p>
+</blockquote>
+<blockquote>
+<p>Google Meet上で録画する方法は
+<a href="https://masudakoji.github.io/remotelearning/posts/join-meeting/#ミーティングを録画する">ミーティングを録画する</a>
+を参照してください。</p>
+</blockquote>
+<p>Google Meetで録画した動画はGoogle Driveの「Meet Recordings」フォルダに保存されています。</p>
+<h2 id="アップロードした動画やファイルを共有するアクセス権を与える">アップロードした動画やファイルを共有する（アクセス権を与える）</h2>
+<p>Google Drive上の共有したいファイル上で右クリックするとメニューが出てきますので「共有」を選択してください。ユーザー欄に共有したい相手の名前かメールアドレスを入力してください。ユーザー名入力欄の右にある鉛筆ボタンを押せばアクセス権の詳細（閲覧のみ？編集可？など）が設定できます。</p>
+<figure class="center">
+    <img src="1.png"/> <figcaption>
+            <h4>共有したいファイルを表示</h4>
+        </figcaption>
+</figure>
+
+<figure class="center">
+    <img src="2.png"/> <figcaption>
+            <h4>ユーザーの所にメールアドレスを入力</h4>
+        </figcaption>
+</figure>
+
+<p>もし、ユーザーのグループが作成されていれば（管理者の作業が必要です。メーリングリストが存在しているものに関しては、そのグループは作成済みです。）ユーザーのグループを指定することも可能です。</p>
+<figure class="center">
+    <img src="3.png"/> <figcaption>
+            <h4>クラス単位で招待する</h4>
+        </figcaption>
+</figure>
+
+<h2 id="アップロードした動画やファイルを共有する視聴可能なリンクを共有する">アップロードした動画やファイルを共有する（視聴可能なリンクを共有する）</h2>
+<p>Google Drive上の共有したいファイル上で右クリックするとメニューが出てきますので、「共有可能なリンクを取得」を選択してください。生成されたリンクをメールなどで共有すれば、そのリンクを知っているメンバーはそのファイルにアクセスすることが出来ます。</p>
+<p>アクセス権について細かく設定したい場合は、上の「アクセス権を与える」ためのメニューを開いて詳細を設定してください。</p>
+<h2 id="フォルダごと共有したい場合">フォルダごと共有したい場合</h2>
+<p>フォルダごとまとめて共有したい場合でも、ファイルを共有するときと同じです。フォルダを共有すれば、そのフォルダに含まれるファイル・フォルダがまとめて共有されます。</p>
+<figure class="center">
+    <img src="4.png"/> <figcaption>
+            <h4>共有可能なリンクを取得する</h4>
+        </figcaption>
+</figure>
+
+<figure class="center">
+    <img src="5.png"/> <figcaption>
+            <h4>生成されたリンクを共有したい相手にメールなどで伝えてください。</h4>
+        </figcaption>
+</figure>
+
+<h2 id="他の配信方法">他の配信方法</h2>
+<p>Google Driveはファイルを共有するために有用ですが、動画のようにファイルサイズが大きいデータを共有すると、受信した学生のデータ使用量が膨れ上がるデメリットがあります。YouTubeなどを活用することもご検討ください。YouTubeですと、動画をアップロードすると、画質を下げた動画も自動で生成されます。視聴する学生側で最適な画質を選択することが出来ます。ただ、画質が低い動画でも確認できるように、文字サイズは大きめにするなど、ご配慮をお願いします。</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Google Meetでの画面共有に手書き文字を書く (Mac対象)</title>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>youtube on 遠隔授業 補助資料</title>
+    <link>https://masudakoji.github.io/remotelearning/tags/youtube/</link>
+    <description>Recent content in youtube on 遠隔授業 補助資料</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://masudakoji.github.io/remotelearning/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>YouTubeでのライブ配信時の遅延について</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/live-streaming-latency-on-youtube/</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/live-streaming-latency-on-youtube/</guid>
+      <description>ライブ配信時の遅延設定 YouTubeでライブ配信する際には遅延が発生します。遅延が発生すること自体は避けられないですが、設定によって遅延を少</description>
+    </item>
+    
+    <item>
+      <title>YouTubeで動画を共有する（Webカメラでライブ配信）</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/</guid>
+      <description>YouTubeでライブ配信 YouTubeはすでにある動画をアップロードするだけではなく、ライブ配信（リアルタイム配信）も可能です。 すでに録画</description>
+    </item>
+    
+    <item>
+      <title>YouTubeで動画を共有する（動画アップロード）</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/share-videos-on-youtube/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/share-videos-on-youtube/</guid>
+      <description>YouTubeで動画をアップロードする 動画を公開・共有する方法の一つとして、Google Drive経由で共有するといった方法がありますが、動</description>
+    </item>
+    
+  </channel>
+</rss>

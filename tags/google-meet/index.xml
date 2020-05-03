@@ -6,10 +6,19 @@
     <description>Recent content in google meet on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearning/tags/google-meet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google Drive経由で動画やファイルを配信する</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/</guid>
+      <description>Google Driveに動画をアップロードする すでに自分で録画していた動画などをGoogle Driveにアップロードする場合ですが、 Google Drive (https://drive.google.com/) にアクセスす</description>
+    </item>
     
     <item>
       <title>Google Meetでの画面共有に手書き文字を書く (Mac対象)</title>

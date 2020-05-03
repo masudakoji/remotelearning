@@ -12,6 +12,42 @@
     
     
     <item>
+      <title>YouTubeでのライブ配信時の遅延について</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/live-streaming-latency-on-youtube/</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/live-streaming-latency-on-youtube/</guid>
+      <description>ライブ配信時の遅延設定 YouTubeでライブ配信する際には遅延が発生します。遅延が発生すること自体は避けられないですが、設定によって遅延を少</description>
+    </item>
+    
+    <item>
+      <title>YouTubeで動画を共有する（Webカメラでライブ配信）</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/</guid>
+      <description>YouTubeでライブ配信 YouTubeはすでにある動画をアップロードするだけではなく、ライブ配信（リアルタイム配信）も可能です。 すでに録画</description>
+    </item>
+    
+    <item>
+      <title>YouTubeで動画を共有する（動画アップロード）</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/share-videos-on-youtube/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/share-videos-on-youtube/</guid>
+      <description>YouTubeで動画をアップロードする 動画を公開・共有する方法の一つとして、Google Drive経由で共有するといった方法がありますが、動</description>
+    </item>
+    
+    <item>
+      <title>Google Drive経由で動画やファイルを配信する</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/</guid>
+      <description>Google Driveに動画をアップロードする すでに自分で録画していた動画などをGoogle Driveにアップロードする場合ですが、 Google Drive (https://drive.google.com/) にアクセスす</description>
+    </item>
+    
+    <item>
       <title>Google Meetでの画面共有に手書き文字を書く (Mac対象)</title>
       <link>https://masudakoji.github.io/remotelearning/posts/screen-casting-with-camtwist/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
@@ -63,42 +99,6 @@
       
       <guid>https://masudakoji.github.io/remotelearning/posts/change-password/</guid>
       <description>Googleのパスワード 学校から配布されたパスワードは仮のパスワードですので、各自で覚えやすいパスワードの変更するなどの対応をよろしくお願い</description>
-    </item>
-    
-    <item>
-      <title>Gmailでメールを送る</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/sendmail-gmail/</link>
-      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/posts/sendmail-gmail/</guid>
-      <description>Gmailアプリのインストール #Gmailアプリのインストールが出来ていない人はインストール方法を参考にしてインストールしてください。 Gma</description>
-    </item>
-    
-    <item>
-      <title>Gmail関係でよくある質問</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/gmail-faq/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/posts/gmail-faq/</guid>
-      <description>よくある質問 #Gmailを使う際によくある質問をまとめました。他のページなども参考にしてみてください。 Googleのメールアドレスがわかりま</description>
-    </item>
-    
-    <item>
-      <title>webカメラやマイクの確認 (Mac編)</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/mac-camera-device/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/posts/mac-camera-device/</guid>
-      <description>内臓webカメラ・内臓マイクの確認 ほとんどのMacBookやiMacなら内臓webカメラや内臓マイクは搭載されているかと思います。自身のマシ</description>
-    </item>
-    
-    <item>
-      <title>webカメラやマイクの確認 (Win編)</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/win-camera-device/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/posts/win-camera-device/</guid>
-      <description>遠隔授業、web会議、web面接について web会議には「webカメラやマイクが搭載されたPC」が必要です。webカメラやマイクが搭載されてい</description>
     </item>
     
   </channel>

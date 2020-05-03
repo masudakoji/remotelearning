@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google drive on 遠隔授業 補助資料</title>
+    <link>https://masudakoji.github.io/remotelearning/tags/google-drive/</link>
+    <description>Recent content in google drive on 遠隔授業 補助資料</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://masudakoji.github.io/remotelearning/tags/google-drive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Drive経由で動画やファイルを配信する</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/</guid>
+      <description>Google Driveに動画をアップロードする すでに自分で録画していた動画などをGoogle Driveにアップロードする場合ですが、 Google Drive (https://drive.google.com/) にアクセスす</description>
+    </item>
+    
+  </channel>
+</rss>
