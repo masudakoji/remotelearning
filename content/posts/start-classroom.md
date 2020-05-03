@@ -68,9 +68,15 @@ Google Play Storeで「Google Classroom」で検索しても見つかると思�
 スマホでもGoogle ClassroomやGoogle Meetは利用できますが、スマホの小さい画面だと資料も見辛いですし、長時間Meetに接続しているとバッテリーの消費が大きいですので、可能であればパソコンを準備していただけると、より快適に授業が受講できます。
 新着情報の確認にはスマホが便利かと思いますが、Meetでの受講の際には**できるだけ大きな画面のパソコン**を用意して受講していただければと思います。
 
-多くの人はインターネットをする時にInternet Explorerを使っているかと思います。Internet Explorerのようなアプリを「ブラウザ」といいますが、Google MeetはInternet Explorerではうまく動作しない事があるようです。Google Classroomを開発しているGoogle社が開発している「Google Chrome」というブラウザ（Androidスマホを持っている人はお馴染みですね）だと、不具合が少ないようですので、「Google Chrome」をインストールしてみてください。
 
 #### Google Chromeのインストール
+多くの人はインターネットをする時にInternet Explorerを使っているかと思います。Internet Explorerのようなアプリを「ブラウザ」といいますが、Google MeetはInternet Explorerではうまく動作しない事があるようです。Google Classroomを開発しているGoogle社が開発している「Google Chrome」というブラウザ（Androidスマホを持っている人はお馴染みですね）だと、不具合が少ないようですので、「Google Chrome」を使ってみてください。
+
+下のアイコンがGoogle Chromeのアイコンです。このアイコンのアプリを起動しましょう。
+{{<figure src="../../img/resource_google-chrome.svg" title="" class="center" width="80">}}  
+
+インストールされていなければ、以下の手順でインストールしてください。
+
 1. [Google Chromeのインストール](https://www.google.com/intl/ja_jp/chrome/)にアクセスして「Chromeをダウンロード」をクリックしてください。
 {{<figure src="4.png" title="" class="center" width="500">}}
 1. ダウンロードするか確認されたら「実行」または「保存」をクリックしてください。
