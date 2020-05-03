@@ -1,7 +1,7 @@
 ---
 title: "YouTubeで動画を共有する（動画アップロード）"
 date: 2020-04-28
-draft: true
+draft: false
 tags: 
   - teacher
   - youtube

@@ -1,7 +1,7 @@
 ---
 title: "YouTubeでのライブ配信時の遅延について"
 date: 2020-04-29
-draft: true
+draft: false
 tags: 
   - teacher
   - youtube

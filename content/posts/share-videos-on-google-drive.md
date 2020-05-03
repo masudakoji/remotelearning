@@ -1,7 +1,7 @@
 ---
 title: "Google Drive経由で動画やファイルを配信する"
 date: 2020-04-24
-draft: true
+draft: false
 tags: 
   - teacher
   - google meet
