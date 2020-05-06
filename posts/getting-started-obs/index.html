@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="OBSを使って動画を作成・配信する">
+<meta itemprop="description" content="YouTubeでの配信方法 YouTubeで配信する方法には「ウェブカメラ」と「エンコーダ配信」があります。「エンコーダ配信」には別途配信ソフ">
+<meta itemprop="datePublished" content="2020-05-06T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-06T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1906">
+
+
+
+<meta itemprop="keywords" content="teacher,live stream,google meet,youtube,obs," /><meta property="og:title" content="OBSを使って動画を作成・配信する" />
+<meta property="og:description" content="YouTubeでの配信方法 YouTubeで配信する方法には「ウェブカメラ」と「エンコーダ配信」があります。「エンコーダ配信」には別途配信ソフ" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://masudakoji.github.io/remotelearning/posts/getting-started-obs/" />
+<meta property="article:published_time" content="2020-05-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-06T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="OBSを使って動画を作成・配信する"/>
+<meta name="twitter:description" content="YouTubeでの配信方法 YouTubeで配信する方法には「ウェブカメラ」と「エンコーダ配信」があります。「エンコーダ配信」には別途配信ソフ"/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/remotelearning/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/remotelearning/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/remotelearning/favicon-16x16.png">
+	<link rel="manifest" href="/remotelearning/site.webmanifest">
+	<link rel="mask-icon" href="/remotelearning/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/remotelearning/favicon.ico">
+
+	<title>OBSを使って動画を作成・配信する</title>
+	<link rel="stylesheet" href="https://masudakoji.github.io/remotelearning/css/style.min.82268888c72fd57d524ca9e40211409d3353c72a26aff636ebcda2d1b8163450.css" integrity="sha256-giaIiMcv1X1STKnkAhFAnTNTxyomr/Y2682i0bgWNFA=" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://masudakoji.github.io/remotelearning/css/print.css" media="print">
+	<link rel="stylesheet" href="https://masudakoji.github.io/remotelearning/css/print-noprint.css" media="print">
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster no_print">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://masudakoji.github.io/remotelearning/">遠隔授業 補助資料</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://masudakoji.github.io/remotelearning/about-student/">学生のみなさんへ</a>
+				<a href="https://masudakoji.github.io/remotelearning/about-teacher/">教員のみなさんへ</a>
+				<a href="https://masudakoji.github.io/remotelearning/posts/">Posts</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://github.com/masudakoji/remotelearning" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://masudakoji.github.io/remotelearning/about-student/">学生のみなさんへ</a></li>
+			<li><a href="https://masudakoji.github.io/remotelearning/about-teacher/">教員のみなさんへ</a></li>
+			<li><a href="https://masudakoji.github.io/remotelearning/posts/">Posts</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>May 6, 2020</span></div>
+				<h1>OBSを使って動画を作成・配信する</h1>
+			</header>
+			<div class="content">
+				<h2 id="youtubeでの配信方法">YouTubeでの配信方法<a href="#youtubeでの配信方法" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>YouTubeで配信する方法には「ウェブカメラ」と「エンコーダ配信」があります。「エンコーダ配信」には別途配信ソフトが必要ですが、より高度な配信が可能です。ウェブカメラで撮影した映像とスライドを重ねて配信したりする事ができます。ここではOBSというソフトを使った方法について紹介します。</p>
+<blockquote>
+<p>ウェブカメラを使って配信する際は<a href="https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/">YouTubeで動画を共有する（Webカメラでライブ配信）</a>を参考にしてください。</p>
+</blockquote>
+<h2 id="obs-studioの使い方">OBS Studioの使い方<a href="#obs-studioの使い方" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<h4 id="obs-studio以下obsとは">OBS Studio（以下OBS）とは<a href="#obs-studio以下obsとは" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>OBSとはOpen Broadcaster Softwareの略で、その名の通り、オープンソースで開発されているビデオ録画、生放送用のソフトです。Windows, macOS, Linuxに対応しています。ウェブカメラやアプリケーションのウインドウなどを自由に配置して映像を出力する事ができます。</p>
+<h4 id="インストール">インストール<a href="#インストール" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p><a href="https://obsproject.com/ja">https://obsproject.com/ja</a>
+からダウンロードして、自分のOSに合わせてインストールしてください。</p>
+<h4 id="起動画面">起動画面<a href="#起動画面" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>起動すると次のような画面になります。
+<figure class="center">
+    <img src="1.png"/> 
+</figure>
+</p>
+<p>またスタジオモードの時は次のような画面になります。スタジオモードでは後述するシーンの切り替えの際に、プレビューを見る事ができるというメリットがあります。
+<figure class="center">
+    <img src="2.png"/> 
+</figure>
+</p>
+<h4 id="シーン">シーン<a href="#シーン" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>OBSでは様々なソースの呼び出し・配置方法について「シーン」という名前で記憶しておけます。色々な表示の仕方を切り替えて配信したい場合は、それぞれ「シーン」に記憶させておいて、それらを呼び出し・切り替えて配信することができます。作成した「シーン」は右下の「シーン」リストに表示されています。「シーン」リストの下にある「＋」ボタンを押して新しくシーンを作ってみます。名前は好きに決めてください。ここでは「test」というシーンを作ります。
+<figure class="center">
+    <img src="3.png"/> 
+</figure>
+</p>
+<p>testというシーンが作成されました。「ソース」リストに読み込む映像ソースなどが表示されます。今はまだソースがありません。このソースにウェブカメラの映像、アプリケーションの画面などをいくつも読み込んで配置する事で「シーン」が作られます。</p>
+<h4 id="powerpointの読み込み">PowerPointの読み込み<a href="#powerpointの読み込み" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>「ソース」リストの下にある「＋」ボタンを押して新しくソースを追加します。「ウィンドウキャプチャ」を選択してください。読み込みたいウィンドウを聞かれますので、自分が見せたいPowerPointのウィンドウを選択してください。
+<figure class="center">
+    <img src="4.png"/> 
+</figure>
+
+<figure class="center">
+    <img src="5.png"/> 
+</figure>
+</p>
+<p>選択するとプレビュー画面にPowerPointの画面が貼り付けられます。四隅・辺の中央の点をドラッグして移動させるとPowerPointの画面サイズが変更できます。アスペクト比は変わりません。また、Altキーを押しながら同様にすると、トリミングができます。スライド部分だけを見せたい時に使います。
+<figure class="center">
+    <img src="6.png"/> 
+</figure>
+
+<figure class="center">
+    <img src="7.png"/> 
+</figure>
+</p>
+<p>なおPowerPointやKeynoteを共有する時に、フルスクリーンにしたいところですが、そうすると、OBSの操作がしづらくなるので、フルスクリーンにせずに、共有する方が使い勝手が良いと思います。アニメーションなどはできませんが・・・
+複数ディスプレイがある人は、サブディスプレイにスライドショーを流して、そのウィンドウ自体を共有することが出来るので、デュアル以上の人はそっちが良さそうです。</p>
+<h4 id="ウェブカメラの読み込み">ウェブカメラの読み込み<a href="#ウェブカメラの読み込み" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>「ソース」リストの下にある「＋」ボタンを押して新しくソースを追加します。「映像キャプチャデバイス」を選択してください。使用するデバイスを聞かれますので、使いたいWebカメラ（内蔵 or 外付けなど）を選択して下さい。配置された後は、PowerPointの時と同様に設定します。</p>
+<figure class="center">
+    <img src="4.png"/> 
+</figure>
+
+<figure class="center">
+    <img src="8.png"/> 
+</figure>
+
+<h4 id="シーンの切り替え">シーンの切り替え<a href="#シーンの切り替え" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>シーンを複数設定している場合（複数のシーンを記憶させている）場合には、切り替えたいシーンを選択すると、そのシーンに切り替わって配信されます。「スタジオモード」の時はプレビュー画面に「プレビュー」と「番組」がありますが、「番組」は現在配信されている映像です。シーンを選択すると、「プレビュー」の方に反映されますので、それで問題なければ（問題があれば、編集したり別のシーンを選択します）「トランジョン」を押すと、プレビューの映像が「番組」に反映されます（配信される画像が切り替わります）
+<figure class="center">
+    <img src="2.png"/> 
+</figure>
+</p>
+<h2 id="動画の録画配信">動画の録画・配信<a href="#動画の録画配信" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>OBSは配信ソフトウェアですが、これで動画も作成することが出来ます。「録画開始」ボタンを押せば、動画が作成されます。録画したファイルが保存されたフォルダには、メニューバーの「ファイル」→「録画を表示」で移動できます。</p>
+<h2 id="youtubeライブ配信">YouTubeライブ配信<a href="#youtubeライブ配信" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>OBSではYouTubeに簡単に動画を配信することができます。<a href="https://masudakoji.github.io/remotelearning/posts/live-streaming-with-obs-on-youtube/">YouTubeで動画を共有する（OBSでライブ配信）</a>を参考にしてください。</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://masudakoji.github.io/remotelearning/tags/teacher">teacher</a></span><span class="tag"><a href="https://masudakoji.github.io/remotelearning/tags/live-stream">live stream</a></span><span class="tag"><a href="https://masudakoji.github.io/remotelearning/tags/google-meet">google meet</a></span><span class="tag"><a href="https://masudakoji.github.io/remotelearning/tags/youtube">youtube</a></span><span class="tag"><a href="https://masudakoji.github.io/remotelearning/tags/obs">obs</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1906 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-05-06</p>
+			</footer>
+		</article>
+		<div class="post-nav thin no_print">
+			<a class="prev-post" href="https://masudakoji.github.io/remotelearning/posts/live-streaming-with-obs-on-youtube/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>YouTubeで動画を共有する（OBSでライブ配信）</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="https://masudakoji.github.io/remotelearning/">Koji Masuda</a> All rights reserved.</p>
+		<p class="no_print">
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://masudakoji.github.io/remotelearning/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://masudakoji.github.io/remotelearning/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>OBSを使って動画を作成・配信する</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/getting-started-obs/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/getting-started-obs/</guid>
+      <description>YouTubeでの配信方法 YouTubeで配信する方法には「ウェブカメラ」と「エンコーダ配信」があります。「エンコーダ配信」には別途配信ソフ</description>
+    </item>
+    
+    <item>
       <title>YouTubeで動画を共有する（OBSでライブ配信）</title>
       <link>https://masudakoji.github.io/remotelearning/posts/live-streaming-with-obs-on-youtube/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
@@ -90,15 +99,6 @@
       
       <guid>https://masudakoji.github.io/remotelearning/posts/camera-microphone-permission/</guid>
       <description>Google Meet使用時の注意 #Google Meetでweb会議をする際にカメラやマイクを使用することになると思いますが、その際、カメラやマイクにアクセス権が付</description>
-    </item>
-    
-    <item>
-      <title>学校からのメールを受け取れるようにする</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/set-non-spam/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/posts/set-non-spam/</guid>
-      <description>学校からの連絡を受け取れるようにする 学校からの連絡や、授業担当の先生からの連絡は神戸高専のメールアドレスか、神戸高専が契約しているGoogl</description>
     </item>
     
   </channel>

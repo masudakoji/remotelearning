@@ -5,8 +5,88 @@
 		<description>Recent content in Posts on 遠隔授業 補助資料</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>ja</language>
-		<lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://masudakoji.github.io/remotelearning/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>OBSを使って動画を作成・配信する</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/getting-started-obs/</link>
+			<pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/getting-started-obs/</guid>
+			<description>YouTubeでの配信方法 YouTubeで配信する方法には「ウェブカメラ」と「エンコーダ配信」があります。「エンコーダ配信」には別途配信ソフ</description>
+			<content type="html"><![CDATA[<h2 id="youtubeでの配信方法">YouTubeでの配信方法</h2>
+<p>YouTubeで配信する方法には「ウェブカメラ」と「エンコーダ配信」があります。「エンコーダ配信」には別途配信ソフトが必要ですが、より高度な配信が可能です。ウェブカメラで撮影した映像とスライドを重ねて配信したりする事ができます。ここではOBSというソフトを使った方法について紹介します。</p>
+<blockquote>
+<p>ウェブカメラを使って配信する際は<a href="https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/">YouTubeで動画を共有する（Webカメラでライブ配信）</a>を参考にしてください。</p>
+</blockquote>
+<h2 id="obs-studioの使い方">OBS Studioの使い方</h2>
+<h4 id="obs-studio以下obsとは">OBS Studio（以下OBS）とは</h4>
+<p>OBSとはOpen Broadcaster Softwareの略で、その名の通り、オープンソースで開発されているビデオ録画、生放送用のソフトです。Windows, macOS, Linuxに対応しています。ウェブカメラやアプリケーションのウインドウなどを自由に配置して映像を出力する事ができます。</p>
+<h4 id="インストール">インストール</h4>
+<p><a href="https://obsproject.com/ja">https://obsproject.com/ja</a>
+からダウンロードして、自分のOSに合わせてインストールしてください。</p>
+<h4 id="起動画面">起動画面</h4>
+<p>起動すると次のような画面になります。
+<figure class="center">
+    <img src="1.png"/> 
+</figure>
+</p>
+<p>またスタジオモードの時は次のような画面になります。スタジオモードでは後述するシーンの切り替えの際に、プレビューを見る事ができるというメリットがあります。
+<figure class="center">
+    <img src="2.png"/> 
+</figure>
+</p>
+<h4 id="シーン">シーン</h4>
+<p>OBSでは様々なソースの呼び出し・配置方法について「シーン」という名前で記憶しておけます。色々な表示の仕方を切り替えて配信したい場合は、それぞれ「シーン」に記憶させておいて、それらを呼び出し・切り替えて配信することができます。作成した「シーン」は右下の「シーン」リストに表示されています。「シーン」リストの下にある「＋」ボタンを押して新しくシーンを作ってみます。名前は好きに決めてください。ここでは「test」というシーンを作ります。
+<figure class="center">
+    <img src="3.png"/> 
+</figure>
+</p>
+<p>testというシーンが作成されました。「ソース」リストに読み込む映像ソースなどが表示されます。今はまだソースがありません。このソースにウェブカメラの映像、アプリケーションの画面などをいくつも読み込んで配置する事で「シーン」が作られます。</p>
+<h4 id="powerpointの読み込み">PowerPointの読み込み</h4>
+<p>「ソース」リストの下にある「＋」ボタンを押して新しくソースを追加します。「ウィンドウキャプチャ」を選択してください。読み込みたいウィンドウを聞かれますので、自分が見せたいPowerPointのウィンドウを選択してください。
+<figure class="center">
+    <img src="4.png"/> 
+</figure>
+
+<figure class="center">
+    <img src="5.png"/> 
+</figure>
+</p>
+<p>選択するとプレビュー画面にPowerPointの画面が貼り付けられます。四隅・辺の中央の点をドラッグして移動させるとPowerPointの画面サイズが変更できます。アスペクト比は変わりません。また、Altキーを押しながら同様にすると、トリミングができます。スライド部分だけを見せたい時に使います。
+<figure class="center">
+    <img src="6.png"/> 
+</figure>
+
+<figure class="center">
+    <img src="7.png"/> 
+</figure>
+</p>
+<p>なおPowerPointやKeynoteを共有する時に、フルスクリーンにしたいところですが、そうすると、OBSの操作がしづらくなるので、フルスクリーンにせずに、共有する方が使い勝手が良いと思います。アニメーションなどはできませんが・・・
+複数ディスプレイがある人は、サブディスプレイにスライドショーを流して、そのウィンドウ自体を共有することが出来るので、デュアル以上の人はそっちが良さそうです。</p>
+<h4 id="ウェブカメラの読み込み">ウェブカメラの読み込み</h4>
+<p>「ソース」リストの下にある「＋」ボタンを押して新しくソースを追加します。「映像キャプチャデバイス」を選択してください。使用するデバイスを聞かれますので、使いたいWebカメラ（内蔵 or 外付けなど）を選択して下さい。配置された後は、PowerPointの時と同様に設定します。</p>
+<figure class="center">
+    <img src="4.png"/> 
+</figure>
+
+<figure class="center">
+    <img src="8.png"/> 
+</figure>
+
+<h4 id="シーンの切り替え">シーンの切り替え</h4>
+<p>シーンを複数設定している場合（複数のシーンを記憶させている）場合には、切り替えたいシーンを選択すると、そのシーンに切り替わって配信されます。「スタジオモード」の時はプレビュー画面に「プレビュー」と「番組」がありますが、「番組」は現在配信されている映像です。シーンを選択すると、「プレビュー」の方に反映されますので、それで問題なければ（問題があれば、編集したり別のシーンを選択します）「トランジョン」を押すと、プレビューの映像が「番組」に反映されます（配信される画像が切り替わります）
+<figure class="center">
+    <img src="2.png"/> 
+</figure>
+</p>
+<h2 id="動画の録画配信">動画の録画・配信</h2>
+<p>OBSは配信ソフトウェアですが、これで動画も作成することが出来ます。「録画開始」ボタンを押せば、動画が作成されます。録画したファイルが保存されたフォルダには、メニューバーの「ファイル」→「録画を表示」で移動できます。</p>
+<h2 id="youtubeライブ配信">YouTubeライブ配信</h2>
+<p>OBSではYouTubeに簡単に動画を配信することができます。<a href="https://masudakoji.github.io/remotelearning/posts/live-streaming-with-obs-on-youtube/">YouTubeで動画を共有する（OBSでライブ配信）</a>を参考にしてください。</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>YouTubeで動画を共有する（OBSでライブ配信）</title>
@@ -150,6 +230,18 @@ Google Play Storeで「Google Classroom」で検索しても見つかると思�
 <li>(Windows 8の場合) 「ようこそ」という画面が立ち上がれば、「次へ」をクリックしてGoogle Chromeを選択してください</li>
 <li>(Windows 10の場合) インストールが無事に終了すれば、Google Chromeが開きます</li>
 </ul>
+<h4 id="ブックマークに登録">ブックマークに登録</h4>
+<p>遠隔授業などでよく使うサイトはあらかじめブックマークしておきましょう。</p>
+<ul>
+<li><a href="https://mail.google.com/">Gmail</a></li>
+<li><a href="https://classroom.google.com/">Google Classroom</a></li>
+<li><a href="https://meet.google.com/">Google Meet</a></li>
+</ul>
+<p>これらのサイトを開いたあとでアドレスバーの右にある★ボタンを押すとブックマークできますので、後からでも簡単にアクセスすることが出来ます。
+<figure class="center">
+    <img src="5.png"/> 
+</figure>
+</p>
 ]]></content>
 		</item>
 		

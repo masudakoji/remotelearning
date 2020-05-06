@@ -6,10 +6,19 @@
     <description>Recent content in obs on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearning/tags/obs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OBSを使って動画を作成・配信する</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/getting-started-obs/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/getting-started-obs/</guid>
+      <description>YouTubeでの配信方法 YouTubeで配信する方法には「ウェブカメラ」と「エンコーダ配信」があります。「エンコーダ配信」には別途配信ソフ</description>
+    </item>
     
     <item>
       <title>YouTubeで動画を共有する（OBSでライブ配信）</title>
