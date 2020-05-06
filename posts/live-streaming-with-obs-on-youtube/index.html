@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="YouTubeで動画を共有する（OBSでライブ配信）">
+<meta itemprop="description" content="OBSを使ってYouTubeライブ配信 ライブ配信の基本的な流れはWebカメラを使った時と同様です。 webカメラを使ったYouTubeライブ配">
+<meta itemprop="datePublished" content="2020-05-05T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-05T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="955">
+
+
+
+<meta itemprop="keywords" content="teacher,youtube,live streaming,google classroom,obs," /><meta property="og:title" content="YouTubeで動画を共有する（OBSでライブ配信）" />
+<meta property="og:description" content="OBSを使ってYouTubeライブ配信 ライブ配信の基本的な流れはWebカメラを使った時と同様です。 webカメラを使ったYouTubeライブ配" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://masudakoji.github.io/remotelearning/posts/live-streaming-with-obs-on-youtube/" />
+<meta property="article:published_time" content="2020-05-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-05T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="YouTubeで動画を共有する（OBSでライブ配信）"/>
+<meta name="twitter:description" content="OBSを使ってYouTubeライブ配信 ライブ配信の基本的な流れはWebカメラを使った時と同様です。 webカメラを使ったYouTubeライブ配"/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/remotelearning/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/remotelearning/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/remotelearning/favicon-16x16.png">
+	<link rel="manifest" href="/remotelearning/site.webmanifest">
+	<link rel="mask-icon" href="/remotelearning/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/remotelearning/favicon.ico">
+
+	<title>YouTubeで動画を共有する（OBSでライブ配信）</title>
+	<link rel="stylesheet" href="https://masudakoji.github.io/remotelearning/css/style.min.82268888c72fd57d524ca9e40211409d3353c72a26aff636ebcda2d1b8163450.css" integrity="sha256-giaIiMcv1X1STKnkAhFAnTNTxyomr/Y2682i0bgWNFA=" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://masudakoji.github.io/remotelearning/css/print.css" media="print">
+	<link rel="stylesheet" href="https://masudakoji.github.io/remotelearning/css/print-noprint.css" media="print">
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster no_print">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://masudakoji.github.io/remotelearning/">遠隔授業 補助資料</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://masudakoji.github.io/remotelearning/about-student/">学生のみなさんへ</a>
+				<a href="https://masudakoji.github.io/remotelearning/about-teacher/">教員のみなさんへ</a>
+				<a href="https://masudakoji.github.io/remotelearning/posts/">Posts</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://github.com/masudakoji/remotelearning" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://masudakoji.github.io/remotelearning/about-student/">学生のみなさんへ</a></li>
+			<li><a href="https://masudakoji.github.io/remotelearning/about-teacher/">教員のみなさんへ</a></li>
+			<li><a href="https://masudakoji.github.io/remotelearning/posts/">Posts</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>May 5, 2020</span></div>
+				<h1>YouTubeで動画を共有する（OBSでライブ配信）</h1>
+			</header>
+			<div class="content">
+				<h2 id="obsを使ってyoutubeライブ配信">OBSを使ってYouTubeライブ配信<a href="#obsを使ってyoutubeライブ配信" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>ライブ配信の基本的な流れはWebカメラを使った時と同様です。</p>
+<blockquote>
+<p>webカメラを使ったYouTubeライブ配信は<a href="https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/">YouTubeで動画を共有する（Webカメラでライブ配信）</a>を参考にしてください。</p>
+</blockquote>
+<h4 id="youtube-studioでの設定">YouTube Studioでの設定<a href="#youtube-studioでの設定" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p><a href="https://studio.youtube.com/">https://studio.youtube.com/</a>
+にアクセスします。ライブ配信ボタンを押すとライブ配信管理画面が出ますので、「エンコーダ配信」を選択して下さい。
+<figure class="center">
+    <img src="1.png"/> <figcaption>
+            <h4>エンコーダ配信開始</h4>
+        </figcaption>
+</figure>
+</p>
+<p>「ウェブカメラ配信」の時と同様に、タイトルなどを設定します。
+<figure class="center">
+    <img src="2.png"/> <figcaption>
+            <h4>タイトルなど設定</h4>
+        </figcaption>
+</figure>
+</p>
+<p>配信の準備が完了しました。ただ、まだ配信ソフト（OBS）からの映像が届いていないので、プレビュー画面には何も映像が表示されていません。「ストリーミングソフトウェアに接続してプレビューを開始します。」とだけ表示されています。</p>
+<p>ここで、ストリームキー（エンコーダに貼り付け）という項目があります。このストリームキーが配信のためのパスワードのようなものです。このストリームキーがあると、他の人がなりすまして配信することが出来てしまいますので、知られないようにしてください。このコストリームキーをコピーしておきます。
+<figure class="center">
+    <img src="3.png"/> <figcaption>
+            <h4>配信準備完了</h4>
+        </figcaption>
+</figure>
+</p>
+<h4 id="obsでの設定">OBSでの設定<a href="#obsでの設定" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>OBSを開いて、設定ボタンを押すと、設定画面が出てきますので、「配信」メニューを開いてください。</p>
+<ul>
+<li>サービスとして「YouTube / YouTube Gaming」</li>
+<li>サーバーとして「Primary YouTube ingest server」</li>
+</ul>
+<p>を選択して、先ほどコピーしたストリームキーをペーストします。
+<figure class="center">
+    <img src="4.png"/> <figcaption>
+            <h4>YouTube Studioで生成したストリームキーを貼り付け</h4>
+        </figcaption>
+</figure>
+</p>
+<p>これでOBSの設定が完了しました。OBSの「配信開始」ボタンを押すと、OBSからYouTubeにデータが送信されます。YouTube Studioのライブ配信管理画面に戻るとOBSからの映像が届いているはずですので、確認ができたら「ライブ配信を開始」ボタンを押すと、ライブ配信がはじまります。
+<figure class="center">
+    <img src="3.png"/> <figcaption>
+            <h4>配信準備完了</h4>
+        </figcaption>
+</figure>
+</p>
+<h4 id="同じ設定を使って配信">同じ設定を使って配信<a href="#同じ設定を使って配信" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h4>
+<p>一度エンコーダ配信をすると、今度も同じ設定を呼び出して配信することが出来ます。むしろ、同じ設定を呼び出して配信を作成しないと、毎回ストリームキーがリセット（再生成）されるので、その度にOBSの設定を行う必要がありますので、「前回の設定を使用して配信」するのがベターだとは思います。</p>
+<figure class="center">
+    <img src="6.png"/> <figcaption>
+            <h4>前回の設定を使用して配信</h4>
+        </figcaption>
+</figure>
+
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://masudakoji.github.io/remotelearning/tags/teacher">teacher</a></span><span class="tag"><a href="https://masudakoji.github.io/remotelearning/tags/youtube">youtube</a></span><span class="tag"><a href="https://masudakoji.github.io/remotelearning/tags/live-streaming">live streaming</a></span><span class="tag"><a href="https://masudakoji.github.io/remotelearning/tags/google-classroom">google classroom</a></span><span class="tag"><a href="https://masudakoji.github.io/remotelearning/tags/obs">obs</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>955 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-05-05</p>
+			</footer>
+		</article>
+		<div class="post-nav thin no_print">
+			<a class="prev-post" href="https://masudakoji.github.io/remotelearning/posts/start-classroom/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Google Classroomに参加する</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="https://masudakoji.github.io/remotelearning/">Koji Masuda</a> All rights reserved.</p>
+		<p class="no_print">
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://masudakoji.github.io/remotelearning/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://masudakoji.github.io/remotelearning/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

@@ -5,8 +5,75 @@
 		<description>Recent content in Posts on 遠隔授業 補助資料</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>ja</language>
-		<lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://masudakoji.github.io/remotelearning/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>YouTubeで動画を共有する（OBSでライブ配信）</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/live-streaming-with-obs-on-youtube/</link>
+			<pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/live-streaming-with-obs-on-youtube/</guid>
+			<description>OBSを使ってYouTubeライブ配信 ライブ配信の基本的な流れはWebカメラを使った時と同様です。 webカメラを使ったYouTubeライブ配</description>
+			<content type="html"><![CDATA[<h2 id="obsを使ってyoutubeライブ配信">OBSを使ってYouTubeライブ配信</h2>
+<p>ライブ配信の基本的な流れはWebカメラを使った時と同様です。</p>
+<blockquote>
+<p>webカメラを使ったYouTubeライブ配信は<a href="https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/">YouTubeで動画を共有する（Webカメラでライブ配信）</a>を参考にしてください。</p>
+</blockquote>
+<h4 id="youtube-studioでの設定">YouTube Studioでの設定</h4>
+<p><a href="https://studio.youtube.com/">https://studio.youtube.com/</a>
+にアクセスします。ライブ配信ボタンを押すとライブ配信管理画面が出ますので、「エンコーダ配信」を選択して下さい。
+<figure class="center">
+    <img src="1.png"/> <figcaption>
+            <h4>エンコーダ配信開始</h4>
+        </figcaption>
+</figure>
+</p>
+<p>「ウェブカメラ配信」の時と同様に、タイトルなどを設定します。
+<figure class="center">
+    <img src="2.png"/> <figcaption>
+            <h4>タイトルなど設定</h4>
+        </figcaption>
+</figure>
+</p>
+<p>配信の準備が完了しました。ただ、まだ配信ソフト（OBS）からの映像が届いていないので、プレビュー画面には何も映像が表示されていません。「ストリーミングソフトウェアに接続してプレビューを開始します。」とだけ表示されています。</p>
+<p>ここで、ストリームキー（エンコーダに貼り付け）という項目があります。このストリームキーが配信のためのパスワードのようなものです。このストリームキーがあると、他の人がなりすまして配信することが出来てしまいますので、知られないようにしてください。このコストリームキーをコピーしておきます。
+<figure class="center">
+    <img src="3.png"/> <figcaption>
+            <h4>配信準備完了</h4>
+        </figcaption>
+</figure>
+</p>
+<h4 id="obsでの設定">OBSでの設定</h4>
+<p>OBSを開いて、設定ボタンを押すと、設定画面が出てきますので、「配信」メニューを開いてください。</p>
+<ul>
+<li>サービスとして「YouTube / YouTube Gaming」</li>
+<li>サーバーとして「Primary YouTube ingest server」</li>
+</ul>
+<p>を選択して、先ほどコピーしたストリームキーをペーストします。
+<figure class="center">
+    <img src="4.png"/> <figcaption>
+            <h4>YouTube Studioで生成したストリームキーを貼り付け</h4>
+        </figcaption>
+</figure>
+</p>
+<p>これでOBSの設定が完了しました。OBSの「配信開始」ボタンを押すと、OBSからYouTubeにデータが送信されます。YouTube Studioのライブ配信管理画面に戻るとOBSからの映像が届いているはずですので、確認ができたら「ライブ配信を開始」ボタンを押すと、ライブ配信がはじまります。
+<figure class="center">
+    <img src="3.png"/> <figcaption>
+            <h4>配信準備完了</h4>
+        </figcaption>
+</figure>
+</p>
+<h4 id="同じ設定を使って配信">同じ設定を使って配信</h4>
+<p>一度エンコーダ配信をすると、今度も同じ設定を呼び出して配信することが出来ます。むしろ、同じ設定を呼び出して配信を作成しないと、毎回ストリームキーがリセット（再生成）されるので、その度にOBSの設定を行う必要がありますので、「前回の設定を使用して配信」するのがベターだとは思います。</p>
+<figure class="center">
+    <img src="6.png"/> <figcaption>
+            <h4>前回の設定を使用して配信</h4>
+        </figcaption>
+</figure>
+
+]]></content>
+		</item>
 		
 		<item>
 			<title>Google Classroomに参加する</title>
@@ -60,8 +127,14 @@ Google Play Storeで「Google Classroom」で検索しても見つかると思�
 <h2 id="パソコンの準備">パソコンの準備</h2>
 <p>スマホでもGoogle ClassroomやGoogle Meetは利用できますが、スマホの小さい画面だと資料も見辛いですし、長時間Meetに接続しているとバッテリーの消費が大きいですので、可能であればパソコンを準備していただけると、より快適に授業が受講できます。
 新着情報の確認にはスマホが便利かと思いますが、Meetでの受講の際には<strong>できるだけ大きな画面のパソコン</strong>を用意して受講していただければと思います。</p>
-<p>多くの人はインターネットをする時にInternet Explorerを使っているかと思います。Internet Explorerのようなアプリを「ブラウザ」といいますが、Google MeetはInternet Explorerではうまく動作しない事があるようです。Google Classroomを開発しているGoogle社が開発している「Google Chrome」というブラウザ（Androidスマホを持っている人はお馴染みですね）だと、不具合が少ないようですので、「Google Chrome」をインストールしてみてください。</p>
 <h4 id="google-chromeのインストール">Google Chromeのインストール</h4>
+<p>多くの人はインターネットをする時にInternet Explorerを使っているかと思います。Internet Explorerのようなアプリを「ブラウザ」といいますが、Google MeetはInternet Explorerではうまく動作しない事があるようです。Google Classroomを開発しているGoogle社が開発している「Google Chrome」というブラウザ（Androidスマホを持っている人はお馴染みですね）だと、不具合が少ないようですので、「Google Chrome」を使ってみてください。</p>
+<p>下のアイコンがGoogle Chromeのアイコンです。このアイコンのアプリを起動しましょう。
+<figure class="center">
+    <img src="../../img/resource_google-chrome.svg" width="80"/> 
+</figure>
+</p>
+<p>インストールされていなければ、以下の手順でインストールしてください。</p>
 <ol>
 <li><a href="https://www.google.com/intl/ja_jp/chrome/">Google Chromeのインストール</a>にアクセスして「Chromeをダウンロード」をクリックしてください。
 <figure class="center">
@@ -213,7 +286,17 @@ Google Play Storeで「Google Classroom」で検索しても見つかると思�
         </figcaption>
 </figure>
 </p>
-<p>Webカメラを使って配信する場合は以上です。しかし、これではWebカメラに映っているものしか配信できない（スライドなどが配信できない）ので、その場合はOBSなどのソフトを使う必要があります。</p>
+<p>Webカメラを使って配信する場合は以上です。</p>
+<h2 id="より高度な配信">より高度な配信</h2>
+<p>今回説明した方法では、Webカメラに映っているものしか配信できません（スライドなどが配信できない）。
+スライドなども共有したい場合は、一つは（Mac専用ソフトですが）CamTwistなどを使うことです。仮想webカメラとして動作するので、CamTwist経由で出力される映像を使って「ウェブカメラ」配信する事ができます。
+また、OBSなどの配信ソフトを使って行う「エンコーダ配信」という方法もあります。ご検討ください。</p>
+<blockquote>
+<p>CamTwistの使い方は<a href="https://masudakoji.github.io/remotelearning/posts/screen-casting-with-camtwist/">Google Meetでの画面共有に手書き文字を書く (Mac対象)</a>を参考にしてください。</p>
+</blockquote>
+<blockquote>
+<p>OBSの使い方は<a href="https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/">OBSを使って動画を配信する</a>を参考にしてください。</p>
+</blockquote>
 ]]></content>
 		</item>
 		
@@ -368,8 +451,47 @@ Google Play Storeで「Google Classroom」で検索しても見つかると思�
         </figcaption>
 </figure>
 
+<h2 id="詳細なアクセス権ファイルのダウンロードなどを禁止する">詳細なアクセス権（ファイルのダウンロードなどを禁止する）</h2>
+<p>通常であれば閲覧者はファイルのダウンロードなどもできるのですが、それを無効にすることができます。適宜活用してください。</p>
+<p>Google Drive上の共有したいファイル上で右クリックするとメニューが出てきますので「共有」を選択してください。開いたウィンドウの右下にある「詳細設定」を開くと、より詳細な設定が入力できます。
+<figure class="center">
+    <img src="6.png"/> <figcaption>
+            <h4>共有の設定</h4>
+        </figcaption>
+</figure>
+</p>
+<p>「オーナーの設定」にある「閲覧者（コメント可）と閲覧者のダウンロード、印刷、コピーを無効にします」をチェックすると、ダウンロードが出来ないようにすることが出来ます。
+<figure class="center">
+    <img src="7.png"/> <figcaption>
+            <h4>ダウンロードの禁止などの設定</h4>
+        </figcaption>
+</figure>
+</p>
+<h2 id="詳細なアクセス権アクセスできる有効期限を設定">詳細なアクセス権（アクセスできる有効期限を設定）</h2>
+<p>ファイルのオーナーは、自分（オーナー）以外のユーザーのアクセス権を設定できますが、その際、そのユーザーに与える権限に有効期限を設定することができます。適宜活用してください。</p>
+<p>Google Drive上の共有したいファイル上で右クリックするとメニューが出てきますので「共有」を選択してください。開いたウィンドウの右下にある「詳細設定」を開くと、より詳細な設定が入力できます。</p>
+<p>ユーザーの上にカーソルを持ってくるとタイマーのアイコンが表示されますので、それをクリックします。
+<figure class="center">
+    <img src="8.png"/> <figcaption>
+            <h4>共有の詳細設定</h4>
+        </figcaption>
+</figure>
+</p>
+<p>アクセスの有効期限が設定できます。
+<figure class="center">
+    <img src="9.png"/> <figcaption>
+            <h4>アクセスの有効期限を設定</h4>
+        </figcaption>
+</figure>
+</p>
 <h2 id="他の配信方法">他の配信方法</h2>
 <p>Google Driveはファイルを共有するために有用ですが、動画のようにファイルサイズが大きいデータを共有すると、受信した学生のデータ使用量が膨れ上がるデメリットがあります。YouTubeなどを活用することもご検討ください。YouTubeですと、動画をアップロードすると、画質を下げた動画も自動で生成されます。視聴する学生側で最適な画質を選択することが出来ます。ただ、画質が低い動画でも確認できるように、文字サイズは大きめにするなど、ご配慮をお願いします。</p>
+<blockquote>
+<p>YouTubeによる動画ファイルの共有は<a href="https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/">YouTubeで動画を共有する（動画アップロード）</a>を参考にしてください。</p>
+</blockquote>
+<blockquote>
+<p>YouTubeライブ配信は<a href="https://masudakoji.github.io/remotelearning/posts/live-streaming-on-youtube/">YouTubeで動画を共有する（Webカメラでライブ配信）</a>を参考にしてください。</p>
+</blockquote>
 ]]></content>
 		</item>
 		

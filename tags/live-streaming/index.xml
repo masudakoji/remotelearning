@@ -6,10 +6,19 @@
     <description>Recent content in live streaming on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearning/tags/live-streaming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>YouTubeで動画を共有する（OBSでライブ配信）</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/live-streaming-with-obs-on-youtube/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/live-streaming-with-obs-on-youtube/</guid>
+      <description>OBSを使ってYouTubeライブ配信 ライブ配信の基本的な流れはWebカメラを使った時と同様です。 webカメラを使ったYouTubeライブ配</description>
+    </item>
     
     <item>
       <title>YouTubeでのライブ配信時の遅延について</title>
