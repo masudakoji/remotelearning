@@ -87,3 +87,11 @@ Google Play Storeで「Google Classroom」で検索しても見つかると思�
 - (Windows 10の場合) インストールが無事に終了すれば、Google Chromeが開きます
 
 
+#### ブックマークに登録
+遠隔授業などでよく使うサイトはあらかじめブックマークしておきましょう。
+- [Gmail](https://mail.google.com/)
+- [Google Classroom](https://classroom.google.com/)
+- [Google Meet](https://meet.google.com/)
+
+これらのサイトを開いたあとでアドレスバーの右にある★ボタンを押すとブックマークできますので、後からでも簡単にアクセスすることが出来ます。
+{{<figure src="5.png" title="" class="center">}}
