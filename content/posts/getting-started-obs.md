@@ -1,7 +1,7 @@
 ---
 title: "OBSを使って動画を作成・配信する"
-date: 2020-05-05
-draft: true
+date: 2020-05-06
+draft: false
 tags: 
   - teacher
   - live stream
