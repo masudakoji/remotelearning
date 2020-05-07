@@ -16,6 +16,7 @@ tags:
 自分でミーティングを立ち上げて、他の人を招待する場合について説明します。
 招待されたミーティングに参加する方法は[ミーティングを始める]({{<ref "start-meeting.md">}})を参考にしてください。
 
+ミーティングに参加する前に、[自分がどのアカウントでログインしているか確かめて]({{<ref "find-out-if-you-are-logged-in-with-your-account">}})おきましょう。
 
 ## 招待を受ける（PC）
 ミーティングの主催者や参加者から招待されると次のようなメールが届きます。
@@ -76,3 +77,6 @@ tags:
 
 {{<figure src="exit.png" title="ミーティングから退出" class="center">}}
 
+
+## Google ClassroomからGoogle Meetを立ち上げる
+Google Classroom経由でアクセスする場合は、[Google ClassroomからGoogle Meetを立ち上げる]({{<ref "joining-a-google-meet-via-google-classroom">}})を参考にしてください。
