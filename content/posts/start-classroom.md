@@ -92,6 +92,7 @@ Google Play Storeで「Google Classroom」で検索しても見つかると思�
 - [Gmail](https://mail.google.com/)
 - [Google Classroom](https://classroom.google.com/)
 - [Google Meet](https://meet.google.com/)
+- [Google Calendar](https://calendar.google.com/calendar/r/week?tab=rc)
 
 これらのサイトを開いたあとでアドレスバーの右にある★ボタンを押すとブックマークできますので、後からでも簡単にアクセスすることが出来ます。
 {{<figure src="5.png" title="" class="center">}}
