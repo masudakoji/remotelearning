@@ -4,7 +4,7 @@ date: 2020-05-06
 draft: false
 tags: 
   - teacher
-  - live stream
+  - live streaming
   - google meet
   - youtube
   - obs
