@@ -7,6 +7,8 @@ tags:
 ---
 教員向けのClassroomもご参考ください。
 
+また、学生さんへの情報提供で必要かと思われましたら、このサイトのアドレスを適宜共有いただいて構いません。
+
 ## Google Meet
 [#Google Meet]({{<ref "../tags/google-meet/">}})を使えば、遠隔での授業やディスカッションが可能です。
 - [Google Meetの導入方法]({{<ref "posts/introduction-of-google-hangouts-meet.md">}})
