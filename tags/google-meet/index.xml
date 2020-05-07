@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>自分のGoogleアカウントでログインしているか確かめる</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/find-out-if-you-are-logged-in-with-your-account/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/find-out-if-you-are-logged-in-with-your-account/</guid>
+      <description>Googleアカウントの使い分け 神戸高専からGoogleのアカウントが配布されましたが、すでに自分のGoogleアカウントを持っている人は、</description>
+    </item>
+    
+    <item>
       <title>OBSを使って動画を作成・配信する</title>
       <link>https://masudakoji.github.io/remotelearning/posts/getting-started-obs/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
@@ -90,15 +99,6 @@
       
       <guid>https://masudakoji.github.io/remotelearning/posts/win-camera-device/</guid>
       <description>遠隔授業、web会議、web面接について web会議には「webカメラやマイクが搭載されたPC」が必要です。webカメラやマイクが搭載されてい</description>
-    </item>
-    
-    <item>
-      <title>招待されたミーティングに参加する</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/join-meeting/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/posts/join-meeting/</guid>
-      <description>遠隔ミーティング #Google Meetが学生とのディスカッションや教員間のミーティングなどに活用できます。導入方法などはGoogle Meetの導入方法を</description>
     </item>
     
   </channel>

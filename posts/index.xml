@@ -86,6 +86,30 @@ cd $OBS_DIR/build/rundir/RelWithDebInfo/bin
 		</item>
 		
 		<item>
+			<title>自分のGoogleアカウントでログインしているか確かめる</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/find-out-if-you-are-logged-in-with-your-account/</link>
+			<pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/find-out-if-you-are-logged-in-with-your-account/</guid>
+			<description>Googleアカウントの使い分け 神戸高専からGoogleのアカウントが配布されましたが、すでに自分のGoogleアカウントを持っている人は、</description>
+			<content type="html"><![CDATA[<h2 id="googleアカウントの使い分け">Googleアカウントの使い分け</h2>
+<p>神戸高専からGoogleのアカウントが配布されましたが、すでに自分のGoogleアカウントを持っている人は、自分のアカウントに切り替えてからGoogle MeetやGoogle Classroomにログインしてください。</p>
+<p>（家族共用のPCを使っている人は）ご家族のアカウントでログインしたままになっていないか気をつけましょう。</p>
+<h2 id="自分のアカウントに切り替える">自分のアカウントに切り替える</h2>
+<p>下のアイコンを押すと自分がどのアカウントでログインしているかわかりますので、確認してみましょう。
+<figure class="center">
+    <img src="1.png"/> 
+</figure>
+</p>
+<p>複数のアカウントを持っている人（家族共用のPCを持っている人）は、自分のアカウントに切り替えたり、自分のアカウントを追加するようにしましょう。
+<figure class="center">
+    <img src="2.png"/> 
+</figure>
+</p>
+]]></content>
+		</item>
+		
+		<item>
 			<title>OBSを使って動画を作成・配信する</title>
 			<link>https://masudakoji.github.io/remotelearning/posts/getting-started-obs/</link>
 			<pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
@@ -1257,6 +1281,7 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
 <h2 id="ミーティングに参加する">ミーティングに参加する</h2>
 <p>自分でミーティングを立ち上げて、他の人を招待する場合について説明します。
 招待されたミーティングに参加する方法は<a href="https://masudakoji.github.io/remotelearning/posts/start-meeting/">ミーティングを始める</a>を参考にしてください。</p>
+<p>ミーティングに参加する前に、<a href="https://masudakoji.github.io/remotelearning/posts/find-out-if-you-are-logged-in-with-your-account/">自分がどのアカウントでログインしているか確かめて</a>おきましょう。</p>
 <h2 id="招待を受けるpc">招待を受ける（PC）</h2>
 <p>ミーティングの主催者や参加者から招待されると次のようなメールが届きます。</p>
 <figure class="center">
@@ -1345,6 +1370,8 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
         </figcaption>
 </figure>
 
+<h2 id="google-classroomからgoogle-meetを立ち上げる">Google ClassroomからGoogle Meetを立ち上げる</h2>
+<p>Google Classroom経由でアクセスする場合は、<a href="">Google ClassroomからGoogle Meetを立ち上げる</a>を参考にしてください。</p>
 ]]></content>
 		</item>
 		

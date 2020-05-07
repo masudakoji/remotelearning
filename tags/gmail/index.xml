@@ -6,10 +6,19 @@
     <description>Recent content in gmail on 遠隔授業 補助資料</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://masudakoji.github.io/remotelearning/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>自分のGoogleアカウントでログインしているか確かめる</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/find-out-if-you-are-logged-in-with-your-account/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/find-out-if-you-are-logged-in-with-your-account/</guid>
+      <description>Googleアカウントの使い分け 神戸高専からGoogleのアカウントが配布されましたが、すでに自分のGoogleアカウントを持っている人は、</description>
+    </item>
     
     <item>
       <title>学校からのメールを受け取れるようにする</title>

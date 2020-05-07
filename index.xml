@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>自分のGoogleアカウントでログインしているか確かめる</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/find-out-if-you-are-logged-in-with-your-account/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/find-out-if-you-are-logged-in-with-your-account/</guid>
+      <description>Googleアカウントの使い分け 神戸高専からGoogleのアカウントが配布されましたが、すでに自分のGoogleアカウントを持っている人は、</description>
+    </item>
+    
+    <item>
       <title>OBSを使って動画を作成・配信する</title>
       <link>https://masudakoji.github.io/remotelearning/posts/getting-started-obs/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
@@ -90,15 +99,6 @@
       
       <guid>https://masudakoji.github.io/remotelearning/posts/screen-casting-with-camtwist/</guid>
       <description>Google Meetでの画面共有 #Google Meetでは自分の画面を共有することができます。デスクトップ全体を共有したり、個別のウインドウを共有したりできます。</description>
-    </item>
-    
-    <item>
-      <title>会議中に自分のPCの画面を共有</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/cast-your-screen/</link>
-      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/posts/cast-your-screen/</guid>
-      <description>自分のPCの画面を共有する #Google Meetでは、参加者に自分のPCの画面を共有することができます。デスクトップ全体を共有するか、アプリケーションの</description>
     </item>
     
   </channel>
