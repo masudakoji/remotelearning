@@ -236,6 +236,7 @@ Google Play Storeで「Google Classroom」で検索しても見つかると思�
 <li><a href="https://mail.google.com/">Gmail</a></li>
 <li><a href="https://classroom.google.com/">Google Classroom</a></li>
 <li><a href="https://meet.google.com/">Google Meet</a></li>
+<li><a href="https://calendar.google.com/calendar/r/week?tab=rc">Google Calendar</a></li>
 </ul>
 <p>これらのサイトを開いたあとでアドレスバーの右にある★ボタンを押すとブックマークできますので、後からでも簡単にアクセスすることが出来ます。
 <figure class="center">
@@ -1216,9 +1217,10 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
 </figure>
 
 <h3 id="ミーティングを録画する">ミーティングを録画する</h3>
-<p>ミーティングの録画機能を使えば、会議の動画を保存することができます。録画された動画はGoogle Drive内に保存されます。</p>
-<p>ミーティング中に右下のアイコンをクリックして表示されるメニューから「ミーティングを録画」すると録画が開始されます。</p>
-<p>録画が終了すると、数分後にGoogle Driveの「Meet Recordings」ディレクトリにmp4ファイルが保存されます。</p>
+<p>ミーティングの録画機能を使えば、会議の動画を保存することができます。録画された動画はGoogle Drive内に保存されます。
+ミーティングの録画は教員しか出来ません。</p>
+<p>ミーティング中に右下のアイコンをクリックして表示されるメニューから「ミーティングを録画」すると録画が開始されます。
+録画が終了すると、数分後にGoogle Driveの「Meet Recordings」ディレクトリにmp4ファイルが保存されます。</p>
 <p><figure class="center">
     <img src="rec1.png"/> <figcaption>
             <h4>録画を開始する</h4>
