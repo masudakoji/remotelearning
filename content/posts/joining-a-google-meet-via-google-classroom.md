@@ -1,9 +1,7 @@
 ---
 title: "Google ClassroomからGoogle Meetを立ち上げる"
 date: 2020-05-07
-draft: true
-toc: false
-images:
+draft: false
 tags: 
   - student
   - teacher
