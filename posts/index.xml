@@ -44,7 +44,7 @@
 			<content type="html"><![CDATA[<h2 id="obsとは">OBSとは</h2>
 <p>YouTubeなどでライブ配信するときなどに使うソフトで、これで動画も作成する事が出来ます。</p>
 <blockquote>
-<p>動画作成については<a href="https://masudakoji.github.io/remotelearning/posts/getting-started-obs/">OBSを使って動画を作成・配信する</a>を参加してください。</p>
+<p>動画作成については<a href="https://masudakoji.github.io/remotelearning/posts/getting-started-obs/">OBSを使って動画を作成・配信する</a>を参考にしてください。</p>
 </blockquote>
 <blockquote>
 <p>ライブ配信に関しては<a href="https://masudakoji.github.io/remotelearning/posts/live-streaming-with-obs-on-youtube/">YouTubeで動画を共有する（OBSでライブ配信）</a>を参考にしてください。</p>
@@ -244,7 +244,7 @@ cd $OBS_DIR/build/rundir/RelWithDebInfo/bin
 </figure>
 </p>
 <p>配信の準備が完了しました。ただ、まだ配信ソフト（OBS）からの映像が届いていないので、プレビュー画面には何も映像が表示されていません。「ストリーミングソフトウェアに接続してプレビューを開始します。」とだけ表示されています。</p>
-<p>ここで、ストリームキー（エンコーダに貼り付け）という項目があります。このストリームキーが配信のためのパスワードのようなものです。このストリームキーがあると、他の人がなりすまして配信することが出来てしまいますので、知られないようにしてください。このコストリームキーをコピーしておきます。
+<p>ここで、ストリームキー（エンコーダに貼り付け）という項目があります。このストリームキーが配信のためのパスワードのようなものです。このストリームキーがあると、他の人がなりすまして配信することが出来てしまいますので、知られないようにしてください。このストリームキーをコピーしておきます。
 <figure class="center">
     <img src="3.png"/> <figcaption>
             <h4>配信準備完了</h4>
