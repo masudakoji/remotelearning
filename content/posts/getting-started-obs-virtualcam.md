@@ -12,7 +12,7 @@ tags:
 ## OBSとは
 YouTubeなどでライブ配信するときなどに使うソフトで、これで動画も作成する事が出来ます。
 
-> 動画作成については[OBSを使って動画を作成・配信する]({{<ref "getting-started-obs">}})を参加してください。
+> 動画作成については[OBSを使って動画を作成・配信する]({{<ref "getting-started-obs">}})を参考にしてください。
 
 > ライブ配信に関しては[YouTubeで動画を共有する（OBSでライブ配信）]({{<ref "live-streaming-with-obs-on-youtube">}})を参考にしてください。
 
