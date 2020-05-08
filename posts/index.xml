@@ -9,6 +9,32 @@
 		<atom:link href="https://masudakoji.github.io/remotelearning/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>Google ClassroomからGoogle Meetを立ち上げる</title>
+			<link>https://masudakoji.github.io/remotelearning/posts/joining-a-google-meet-via-google-classroom/</link>
+			<pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://masudakoji.github.io/remotelearning/posts/joining-a-google-meet-via-google-classroom/</guid>
+			<description>Google ClassroomからGoogle Meetに入る Google ClassroomのトップページにあるリンクからGoogle Meetを開くことができます</description>
+			<content type="html"><![CDATA[<h2 id="google-classroomからgoogle-meetに入る">Google ClassroomからGoogle Meetに入る</h2>
+<p>Google ClassroomのトップページにあるリンクからGoogle Meetを開くことができます。
+<figure class="center">
+    <img src="1.png"/> 
+</figure>
+</p>
+<p>このリンクが表示されていなければ、担当の先生に問い合わせてください。</p>
+<blockquote>
+<p>招待メールが届いた場合の対応は<a href="https://masudakoji.github.io/remotelearning/posts/join-meeting/">招待されたミーティングに参加する</a>を参考にしてください。</p>
+</blockquote>
+<h2 id="先生方へ">先生方へ</h2>
+<p>各Classroomの設定を開いて、「生徒に表示」をONにしてください。
+<figure class="center">
+    <img src="2.png"/> 
+</figure>
+</p>
+]]></content>
+		</item>
+		
+		<item>
 			<title>OBSを仮想カメラとして動作させる</title>
 			<link>https://masudakoji.github.io/remotelearning/posts/getting-started-obs-virtualcam/</link>
 			<pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
@@ -1371,7 +1397,7 @@ Macが内臓webカメラや内臓マイクを搭載しているかは以下か�
 </figure>
 
 <h2 id="google-classroomからgoogle-meetを立ち上げる">Google ClassroomからGoogle Meetを立ち上げる</h2>
-<p>Google Classroom経由でアクセスする場合は、<a href="">Google ClassroomからGoogle Meetを立ち上げる</a>を参考にしてください。</p>
+<p>Google Classroom経由でアクセスする場合は、<a href="https://masudakoji.github.io/remotelearning/posts/joining-a-google-meet-via-google-classroom/">Google ClassroomからGoogle Meetを立ち上げる</a>を参考にしてください。</p>
 ]]></content>
 		</item>
 		

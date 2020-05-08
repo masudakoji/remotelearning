@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Google ClassroomからGoogle Meetを立ち上げる</title>
+      <link>https://masudakoji.github.io/remotelearning/posts/joining-a-google-meet-via-google-classroom/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://masudakoji.github.io/remotelearning/posts/joining-a-google-meet-via-google-classroom/</guid>
+      <description>Google ClassroomからGoogle Meetに入る Google ClassroomのトップページにあるリンクからGoogle Meetを開くことができます</description>
+    </item>
+    
+    <item>
       <title>OBSを仮想カメラとして動作させる</title>
       <link>https://masudakoji.github.io/remotelearning/posts/getting-started-obs-virtualcam/</link>
       <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
@@ -90,15 +99,6 @@
       
       <guid>https://masudakoji.github.io/remotelearning/posts/share-videos-on-google-drive/</guid>
       <description>Google Driveに動画をアップロードする すでに自分で録画していた動画などをGoogle Driveにアップロードする場合ですが、 Google Drive (https://drive.google.com/) にアクセスす</description>
-    </item>
-    
-    <item>
-      <title>Google Meetでの画面共有に手書き文字を書く (Mac対象)</title>
-      <link>https://masudakoji.github.io/remotelearning/posts/screen-casting-with-camtwist/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://masudakoji.github.io/remotelearning/posts/screen-casting-with-camtwist/</guid>
-      <description>Google Meetでの画面共有 #Google Meetでは自分の画面を共有することができます。デスクトップ全体を共有したり、個別のウインドウを共有したりできます。</description>
     </item>
     
   </channel>
