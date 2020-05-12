@@ -16,19 +16,24 @@
 			<guid>https://masudakoji.github.io/remotelearning/posts/joining-a-google-meet-via-google-classroom/</guid>
 			<description>Google ClassroomからGoogle Meetに入る Google ClassroomのトップページにあるリンクからGoogle Meetを開くことができます</description>
 			<content type="html"><![CDATA[<h2 id="google-classroomからgoogle-meetに入る">Google ClassroomからGoogle Meetに入る</h2>
-<p>Google ClassroomのトップページにあるリンクからGoogle Meetを開くことができます。
+<p>Google ClassroomのトップページにあるリンクからGoogle Meetを開くことができます。PCの場合はリンクアドレスが表示されているので、こちらから入ってください。
 <figure class="center">
     <img src="1.png"/> 
 </figure>
 </p>
-<p>このリンクが表示されていなければ、担当の先生に問い合わせてください。</p>
+<p>PCから見て、このリンクが表示されていなければ、担当の先生に問い合わせてください。</p>
+<p>スマホからは、アプリの中にある「ビデオカメラ」アイコンをクリックしてください。
+<figure class="center">
+    <img src="2.png" width="400"/> 
+</figure>
+</p>
 <blockquote>
 <p>招待メールが届いた場合の対応は<a href="https://masudakoji.github.io/remotelearning/posts/join-meeting/">招待されたミーティングに参加する</a>を参考にしてください。</p>
 </blockquote>
 <h2 id="先生方へ">先生方へ</h2>
 <p>各Classroomの設定を開いて、「生徒に表示」をONにしてください。
 <figure class="center">
-    <img src="2.png"/> 
+    <img src="3.png"/> 
 </figure>
 </p>
 ]]></content>
